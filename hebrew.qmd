@@ -1,0 +1,18 @@
+---
+title: "PEX26-F51L חקר המוטציה"
+lang: he
+---
+
+<style>
+.quarto-title h1.title { text-align: right; }
+</style>
+
+<div dir="rtl">
+
+שמנו רגינה רינג ויהודה דינאי. המסע שלנו לחקר הפרוקסיזום החל עם הגילוי שירידת השמיעה התחושתית-עצבית של בנותינו נגרם בעקבות המוטציה PEX26-F51L. ממצא זה דחף אותנו לחקור כיצד מוטציה זו משבשת את תפקוד הפרוקסיזום ומובילה בסופו של דבר לירידה בשמיעה.
+
+תוכן נוסף יתווסף בעתיד.
+
+צרו איתנו קשר: [yehuda.dinaii@gmail.com](mailto:yehuda.dinaii@gmail.com) | [regina.ring@gmail.com](mailto:regina.ring@gmail.com)
+
+</div>

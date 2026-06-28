@@ -17,6 +17,10 @@ website:
         text: Methods
       - href: about_and_contact.qmd
         text: About & Contact
+      - href: hebrew.qmd
+        text: "🇮🇱 עברית"
+      - href: russian.qmd
+        text: "Русский 🇷🇺"
 
 format:
   html:

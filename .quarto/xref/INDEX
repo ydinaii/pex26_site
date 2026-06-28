@@ -19,5 +19,11 @@
   },
   "about_and_contact.qmd": {
     "about_and_contact.html": "701b099c"
+  },
+  "russian.qmd": {
+    "russian.html": "df972d13"
+  },
+  "hebrew.qmd": {
+    "hebrew.html": "7718a5a7"
   }
 }
