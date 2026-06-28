@@ -4,6 +4,7 @@ project:
 
 website:
   title: "PEX26-F51L Research"
+  description: "Structural and computational analysis of the PEX26-F51L mutation and its role in peroxisome biogenesis and sensorineural hearing loss. Research by Yehuda Dinaii and Regina Ring."
   navbar:
     left:
       - href: index.qmd
