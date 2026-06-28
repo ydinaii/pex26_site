@@ -1,0 +1,27 @@
+---
+title: "Structural Impact of the PEX26-F51L Mutation"
+subtitle: "Computational and structural analysis of a peroxisomal disease variant"
+---
+
+## Overview
+
+Peroxisome biogenesis factor 26 (PEX26) is a tail-anchored membrane protein essential for 
+peroxisome biogenesis. It serves as the membrane anchor for the AAA-ATPase complex PEX1/PEX6, 
+which drives recycling of the peroxisomal targeting receptor PEX5.
+
+The missense variant **F51L** in PEX26 is associated with peroxisome biogenesis disorders 
+on the Zellweger spectrum, and has been linked to sensorineural hearing loss.
+
+This site presents ongoing computational structural analysis of this variant, including 
+AlphaFold3 modeling, molecular dynamics simulations, and BioEMU conformational ensemble 
+generation.
+
+## Key Questions
+
+- How does F51L alter the structure and dynamics of the PEX26 cytosolic domain?
+- Does the mutation affect recruitment or binding of the PEX1/PEX6 complex?
+- How is this related to sensorineural hearing loss?
+
+## Status
+
+Work in progress — structural models and ensemble analysis ongoing.

@@ -1,0 +1,41 @@
+---
+title: "About & Contact"
+---
+
+## Who Are We
+
+We are Regina Ring and Yehuda Dinaii. Our journey into peroxisome biology began
+with a personal discovery: our daughters' sensorineural hearing loss is caused
+by the missense mutation **PEX26-F51L**. This finding drove us to investigate
+how this mutation disrupts peroxisome biogenesis and ultimately leads to
+sensorineural hearing loss. 
+
+## Regina Ring
+
+Regina holds an MSc in Computer Science from [Tel Aviv
+University](https://english.tau.ac.il) and a BSc in Information Systems from
+the [Technion — Israel Institute of
+Technology](https://www.technion.ac.il/en/). She works as a Staff Software
+Engineer and contributes to the computational and infrastructural aspects of
+this research.
+
+📧 [regina.ring@gmail.com](mailto:regina.ring@gmail.com)
+
+
+## Yehuda Dinaii
+
+Yehuda holds a PhD in Physics from the [Weizmann Institute of
+Science](https://www.weizmann.ac.il/physics/), where his research focused on
+theoretical condensed matter physics. He subsequently completed a two-year
+postdoc at the [Ohio State University](https://physics.osu.edu). In recent
+years his research direction has shifted toward structural and computational
+biology, motivated by the search for a deeper understanding of the PEX26-F51L
+mutation and its consequences.
+
+He is an Adjunct Lecturer at [Afeka Academic College of
+Engineering](https://www.afeka.ac.il/en/) and at [Achva Academic
+College](https://www.achva.ac.il/en/), and his current research focuses on
+structural and computational modeling of the PEX1/PEX6/PEX26 AAA-ATPase
+complex.
+
+📧 [yehuda.dinaii@gmail.com](mailto:yehuda.dinaii@gmail.com)

@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "PEX26-F51L Research"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: structure.qmd
+        text: Structure
+      - href: methods.qmd
+        text: Methods
+      - href: about_and_contact.qmd
+        text: About & Contact
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
