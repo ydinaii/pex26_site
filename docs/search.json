@@ -4,7 +4,7 @@
     "href": "hebrew.html",
     "title": "PEX26-F51L חקר המוטציה",
     "section": "",
-    "text": "שמנו רגינה רינג ויהודה דינאי. המסע שלנו לחקר הפרוקסיזום החל עם הגילוי שירידת השמיעה התחושתית-עצבית של בנותינו נגרם בעקבות המוטציה PEX26-F51L. ממצא זה דחף אותנו לחקור כיצד מוטציה זו משבשת את תפקוד הפרוקסיזום ומובילה בסופו של דבר לירידה בשמיעה.\nתוכן נוסף יתווסף בעתיד.\nצרו איתנו קשר: yehuda.dinaii@gmail.com | regina.ring@gmail.com"
+    "text": "אנחנו רגינה רינג ויהודה דינאי. המסע שלנו לחקר הפרוקסיזום החל עם הגילוי שירידת השמיעה התחושתית-עצבית של שתי בנותינו נגרמה בעקבות המוטציה PEX26-F51L. ממצא זה דחף אותנו לחקור כיצד מוטציה זו משבשת את תפקוד הפרוקסיזום וכיצד שיבוש זה מוביל לפגיעה בשמיעה.\nתוכן נוסף יתווסף בעתיד.\nצרו איתנו קשר: yehuda.dinaii@gmail.com | regina.ring@gmail.com"
   },
   {
     "objectID": "about_and_contact.html",
@@ -37,28 +37,28 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Structural Impact of the PEX26-F51L Mutation",
+    "title": "PEX26-F51L Research",
     "section": "",
-    "text": "Peroxisome biogenesis factor 26 (PEX26) is a tail-anchored membrane protein essential for peroxisome biogenesis. It serves as the membrane anchor for the AAA-ATPase complex PEX1/PEX6, which drives recycling of the peroxisomal targeting receptor PEX5.\nThe missense variant F51L in PEX26 is associated with peroxisome biogenesis disorders on the Zellweger spectrum, and has been linked to sensorineural hearing loss.\nThis site presents ongoing computational structural analysis of this variant, including AlphaFold3 modeling, molecular dynamics simulations, and BioEMU conformational ensemble generation."
+    "text": "Peroxisome biogenesis factor 26 (PEX26) is a tail-anchored membrane protein essential for peroxisome biogenesis. It serves as the membrane anchor for the AAA-ATPase complex PEX1/PEX6, which drives recycling of the peroxisomal targeting receptor PEX5.\nThe missense variant F51L in PEX26 is associated with peroxisome biogenesis disorders on the Zellweger spectrum, and has been linked to sensorineural hearing loss.\nThis site presents ongoing computational structural analysis of this variant, including AlphaFold 3 modeling, GROMACS molecular dynamics simulations, and BioEmu conformational ensemble generation."
   },
   {
     "objectID": "index.html#overview",
     "href": "index.html#overview",
-    "title": "Structural Impact of the PEX26-F51L Mutation",
+    "title": "PEX26-F51L Research",
     "section": "",
-    "text": "Peroxisome biogenesis factor 26 (PEX26) is a tail-anchored membrane protein essential for peroxisome biogenesis. It serves as the membrane anchor for the AAA-ATPase complex PEX1/PEX6, which drives recycling of the peroxisomal targeting receptor PEX5.\nThe missense variant F51L in PEX26 is associated with peroxisome biogenesis disorders on the Zellweger spectrum, and has been linked to sensorineural hearing loss.\nThis site presents ongoing computational structural analysis of this variant, including AlphaFold3 modeling, molecular dynamics simulations, and BioEMU conformational ensemble generation."
+    "text": "Peroxisome biogenesis factor 26 (PEX26) is a tail-anchored membrane protein essential for peroxisome biogenesis. It serves as the membrane anchor for the AAA-ATPase complex PEX1/PEX6, which drives recycling of the peroxisomal targeting receptor PEX5.\nThe missense variant F51L in PEX26 is associated with peroxisome biogenesis disorders on the Zellweger spectrum, and has been linked to sensorineural hearing loss.\nThis site presents ongoing computational structural analysis of this variant, including AlphaFold 3 modeling, GROMACS molecular dynamics simulations, and BioEmu conformational ensemble generation."
   },
   {
     "objectID": "index.html#key-questions",
     "href": "index.html#key-questions",
-    "title": "Structural Impact of the PEX26-F51L Mutation",
+    "title": "PEX26-F51L Research",
     "section": "Key Questions",
     "text": "Key Questions\n\nHow does F51L alter the structure and dynamics of the PEX26 cytosolic domain?\nDoes the mutation affect recruitment or binding of the PEX1/PEX6 complex?\nHow is this related to sensorineural hearing loss?"
   },
   {
     "objectID": "index.html#status",
     "href": "index.html#status",
-    "title": "Structural Impact of the PEX26-F51L Mutation",
+    "title": "PEX26-F51L Research",
     "section": "Status",
     "text": "Status\nWork in progress — structural models and ensemble analysis ongoing."
   },
