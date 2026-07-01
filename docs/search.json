@@ -63,6 +63,20 @@
     "text": "Status\nWork in progress — structural models and ensemble analysis ongoing."
   },
   {
+    "objectID": "dynamics.html",
+    "href": "dynamics.html",
+    "title": "Molecular Dynamics Simulation",
+    "section": "",
+    "text": "The viewer below shows a molecular dynamics simulation trajectory of PEX26.\nTo play the simulation:\n\nClick the animation control button  in the top-left corner of the viewer to open the animation control panel\nClick Start to begin the animation\nTo adjust the speed, change the Duration In S value in the animation control panel\n\nYou can rotate and zoom using your mouse while the simulation is playing."
+  },
+  {
+    "objectID": "dynamics.html#pex26-simulation-trajectory",
+    "href": "dynamics.html#pex26-simulation-trajectory",
+    "title": "Molecular Dynamics Simulation",
+    "section": "",
+    "text": "The viewer below shows a molecular dynamics simulation trajectory of PEX26.\nTo play the simulation:\n\nClick the animation control button  in the top-left corner of the viewer to open the animation control panel\nClick Start to begin the animation\nTo adjust the speed, change the Duration In S value in the animation control panel\n\nYou can rotate and zoom using your mouse while the simulation is playing."
+  },
+  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",

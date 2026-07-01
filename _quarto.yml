@@ -13,6 +13,8 @@ website:
         text: Research
       - href: structure.qmd
         text: Structure
+      - href: dynamics.qmd
+        text: Dynamics
       - href: methods.qmd
         text: Methods
       - href: about_and_contact.qmd

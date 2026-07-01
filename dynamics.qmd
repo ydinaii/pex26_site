@@ -1,0 +1,22 @@
+---
+title: "Molecular Dynamics Simulation"
+---
+
+## PEX26 Simulation Trajectory
+
+The viewer below shows a molecular dynamics simulation trajectory of PEX26.
+
+**To play the simulation:**
+
+1. Click the animation control button <img src="play_button.png" style="height:1.2em; vertical-align:middle;"> in the top-left corner of the viewer to open the animation control panel
+2. Click **Start** to begin the animation
+3. To adjust the speed, change the **Duration In S** value in the animation control panel
+
+You can rotate and zoom using your mouse while the simulation is playing.
+
+<iframe
+  src="https://molstar.org/viewer/?snapshot-url=https://raw.githubusercontent.com/ydinaii/md-binder-pex26/refs/heads/main/mol-star_state_prmtop_xtc.molx&snapshot-url-type=molx&hide-controls=1"
+  width="100%"
+  height="800px"
+  style="border: none; border-radius: 4px;">
+</iframe>
