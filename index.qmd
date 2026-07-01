@@ -15,9 +15,11 @@ disorders on the Zellweger spectrum, and has been linked to sensorineural
 hearing loss.
 
 This site presents ongoing computational structural analysis of this variant,
-including [AlphaFold 3](https://github.com/google-deepmind/alphafold3/tree/main)
-modeling, [GROMACS](https://www.gromacs.org) molecular dynamics simulations,
-and [BioEmu](https://github.com/microsoft/bioemu) conformational ensemble
+including [AlphaFold
+3](https://github.com/google-deepmind/alphafold3/tree/main) modeling,
+[CHARMM-GUI](https://www.charmm-gui.org/) system preparation,
+[GROMACS](https://www.gromacs.org) molecular dynamics simulations, and
+[BioEmu](https://github.com/microsoft/bioemu) conformational ensemble
 generation.
 
 ## Key Questions

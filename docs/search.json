@@ -39,14 +39,14 @@
     "href": "index.html",
     "title": "PEX26-F51L Research",
     "section": "",
-    "text": "Peroxisome biogenesis factor 26 (PEX26) is a tail-anchored membrane protein essential for peroxisome biogenesis. It serves as the membrane anchor for the AAA-ATPase complex PEX1/PEX6, which drives recycling of the peroxisomal targeting receptor PEX5.\nThe missense variant F51L in PEX26 is associated with peroxisome biogenesis disorders on the Zellweger spectrum, and has been linked to sensorineural hearing loss.\nThis site presents ongoing computational structural analysis of this variant, including AlphaFold 3 modeling, GROMACS molecular dynamics simulations, and BioEmu conformational ensemble generation."
+    "text": "Peroxisome biogenesis factor 26 (PEX26) is a tail-anchored membrane protein essential for peroxisome biogenesis. It serves as the membrane anchor for the AAA-ATPase complex PEX1/PEX6, which drives recycling of the peroxisomal targeting receptor PEX5.\nThe missense variant F51L in PEX26 is associated with peroxisome biogenesis disorders on the Zellweger spectrum, and has been linked to sensorineural hearing loss.\nThis site presents ongoing computational structural analysis of this variant, including AlphaFold 3 modeling, CHARMM-GUI system preparation, GROMACS molecular dynamics simulations, and BioEmu conformational ensemble generation."
   },
   {
     "objectID": "index.html#overview",
     "href": "index.html#overview",
     "title": "PEX26-F51L Research",
     "section": "",
-    "text": "Peroxisome biogenesis factor 26 (PEX26) is a tail-anchored membrane protein essential for peroxisome biogenesis. It serves as the membrane anchor for the AAA-ATPase complex PEX1/PEX6, which drives recycling of the peroxisomal targeting receptor PEX5.\nThe missense variant F51L in PEX26 is associated with peroxisome biogenesis disorders on the Zellweger spectrum, and has been linked to sensorineural hearing loss.\nThis site presents ongoing computational structural analysis of this variant, including AlphaFold 3 modeling, GROMACS molecular dynamics simulations, and BioEmu conformational ensemble generation."
+    "text": "Peroxisome biogenesis factor 26 (PEX26) is a tail-anchored membrane protein essential for peroxisome biogenesis. It serves as the membrane anchor for the AAA-ATPase complex PEX1/PEX6, which drives recycling of the peroxisomal targeting receptor PEX5.\nThe missense variant F51L in PEX26 is associated with peroxisome biogenesis disorders on the Zellweger spectrum, and has been linked to sensorineural hearing loss.\nThis site presents ongoing computational structural analysis of this variant, including AlphaFold 3 modeling, CHARMM-GUI system preparation, GROMACS molecular dynamics simulations, and BioEmu conformational ensemble generation."
   },
   {
     "objectID": "index.html#key-questions",
@@ -86,8 +86,15 @@
   {
     "objectID": "structure.html",
     "href": "structure.html",
-    "title": "Structure",
+    "title": "PEX1/PEX6/PEX26 Complex Structure + Membrane",
     "section": "",
-    "text": "Content coming soon."
+    "text": "The viewer below shows the AlphaFold3 model of the PEX1/PEX6/PEX26 complex and part of the peroxisome membrane as prepared with CHARMM-GUI. Use your mouse to rotate, zoom, and explore the structure."
+  },
+  {
+    "objectID": "structure.html#interactive-3d-viewer",
+    "href": "structure.html#interactive-3d-viewer",
+    "title": "PEX1/PEX6/PEX26 Complex Structure + Membrane",
+    "section": "",
+    "text": "The viewer below shows the AlphaFold3 model of the PEX1/PEX6/PEX26 complex and part of the peroxisome membrane as prepared with CHARMM-GUI. Use your mouse to rotate, zoom, and explore the structure."
   }
 ]
