@@ -5,28 +5,59 @@ subtitle: "Computational and structural analysis of a peroxisomal disease varian
 
 ## Overview
 
-Peroxisome biogenesis factor 26 (PEX26) is a tail-anchored membrane protein
-essential for peroxisome biogenesis. It serves as the membrane anchor for the
-AAA-ATPase complex PEX1/PEX6, which drives recycling of the peroxisomal
-targeting receptor PEX5.
+**Peroxisome biogenesis factor 26 (PEX26)** is a tail-anchored peroxisomal membrane
+protein that recruits and anchors the hexameric AAA-ATPase complex PEX1–PEX6 to the
+cytosolic face of the peroxisome. The complex uses ATP hydrolysis to
+retrotranslocate the import receptor PEX5 back to the cytosol, enabling
+repeated rounds of peroxisomal matrix protein import.
 
-The missense variant **F51L** in PEX26 is associated with peroxisome biogenesis
-disorders on the Zellweger spectrum, and has been linked to sensorineural
-hearing loss.
-
-This site presents ongoing computational structural analysis of this variant,
-including [AlphaFold
-3](https://github.com/google-deepmind/alphafold3/tree/main) modeling,
-[CHARMM-GUI](https://www.charmm-gui.org/) system preparation,
-[GROMACS](https://www.gromacs.org) molecular dynamics simulations, and
-[BioEmu](https://github.com/microsoft/bioemu) conformational ensemble
-generation.
+The homozygous missense variant **F51L** in **PEX26** is associated with
+peroxisome biogenesis disorders on the Zellweger spectrum, and has been linked
+to sensorineural hearing loss. It was first described in 2019 in four siblings
+from an Ashkenazi Jewish family [[Tanaka et al.
+(2019)](https://molecularcasestudies.cshlp.org/content/5/1/a003483.long)]. To
+our knowledge, only six individuals worldwide are known to carry this mutation:
+the four siblings reported in that study, and [our two
+daughters](about_and_contact.html).
 
 ## Key Questions
 
 - How does F51L alter the structure and dynamics of the PEX26 cytosolic domain?
 - Does the mutation affect recruitment or binding of the PEX1/PEX6 complex?
 - How is this related to sensorineural hearing loss?
+
+## What We Do
+
+We use [AlphaFold 3](https://github.com/google-deepmind/alphafold3/tree/main) for
+structure prediction and [CHARMM-GUI](https://www.charmm-gui.org/) for the peroxisome membrane
+to build accurate structural models of both the wild-type and the **PEX26-F51L** variant.
+
+<video width="100%" controls>
+  <source src="movie.mp4" type="video/mp4">
+</video>
+
+We explore conformational ensembles using [BioEmu](https://github.com/microsoft/bioemu).
+
+<video width="100%" controls>
+  <source src="bioemu_ensemble.mp4" type="video/mp4">
+</video>
+
+We also use [GROMACS](https://www.gromacs.org) molecular dynamics simulations to study 
+the effect of physical conditions such as temperature on protein behavior, and to 
+characterize how the **PEX26-F51L** mutation affects peroxisome function and ultimately 
+leads to hearing loss.
+
+<video width="100%" controls>
+  <source src="sim_screen_rec_web.mp4" type="video/mp4">
+</video>
+
+We collaborate with university laboratories specializing in peroxisome biology and genetic 
+hearing loss. We have contributed patient-derived fibroblasts to these collaborations and 
+have a mouse model of the mutation.
+
+Our long-term goal is to advance a therapeutic pathway for this condition. We hope that 
+our work will also contribute to the broader understanding of more severe peroxisomal 
+diseases on the Zellweger spectrum.
 
 ## Status
 

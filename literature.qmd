@@ -1,0 +1,48 @@
+---
+title: "Papers Citing Tanaka et al. (2019)"
+---
+
+Papers citing the original PEX26-F51L report, fetched live from
+[Semantic Scholar](https://www.semanticscholar.org/paper/e8eec93f5c9e15821b7d041f9e49180f6ce32804).
+
+```{=html}
+<div style="margin-bottom:1rem;">
+  <a id="ss-link" href="https://www.semanticscholar.org/paper/e8eec93f5c9e15821b7d041f9e49180f6ce32804" target="_blank">View on Semantic Scholar</a>
+  <span id="count-badge" style="margin-left:1rem; color:#666;"></span>
+</div>
+<div id="results"></div>
+<div id="status"></div>
+
+<script>
+const API = 'https://api.semanticscholar.org/graph/v1/paper/e8eec93f5c9e15821b7d041f9e49180f6ce32804?fields=paperId,title,citationCount,citations.title,citations.year,citations.authors,citations.externalIds,citations.journal';
+
+document.addEventListener('DOMContentLoaded', () => {
+  const status = document.getElementById('status');
+  const results = document.getElementById('results');
+  const badge = document.getElementById('count-badge');
+
+  status.textContent = 'Loading citations…';
+
+  fetch(API)
+    .then(r => r.json())
+    .then(data => {
+      status.textContent = '';
+      const citations = (data.citations || []).sort((a,b) => (b.year||0)-(a.year||0));
+      badge.textContent = citations.length + ' citing paper' + (citations.length !== 1 ? 's' : '');
+      if (citations.length === 0) { status.textContent = 'No citations found yet.'; return; }
+      results.innerHTML = citations.map(p => {
+        const authors = (p.authors||[]).map(a => a.name).join(', ');
+        const journal = p.journal?.name || '';
+        const year = p.year || '';
+        const doi = p.externalIds?.DOI;
+        const url = doi ? 'https://doi.org/' + doi : (p.paperId ? 'https://www.semanticscholar.org/paper/' + p.paperId : null);
+        return '<div style="border-top:1px solid #ddd; padding:0.85rem 0;">'
+          + '<p style="margin:0 0 4px; font-weight:500;">' + (url ? '<a href="' + url + '" target="_blank">' + (p.title||'Untitled') + '</a>' : (p.title||'Untitled')) + '</p>'
+          + '<p style="margin:0; font-size:0.9em; color:#666;">' + (authors ? authors + ' · ' : '') + (journal ? journal + ' · ' : '') + year + '</p>'
+          + '</div>';
+      }).join('');
+    })
+    .catch(() => { status.textContent = 'Could not load citations. Please try again later.'; });
+});
+</script>
+```

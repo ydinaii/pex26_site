@@ -28,5 +28,11 @@
   },
   "dynamics.qmd": {
     "dynamics.html": "b39b05f0"
+  },
+  "citations.qmd": {
+    "citations.html": "2db792b1"
+  },
+  "literature.qmd": {
+    "literature.html": "1b41f3c9"
   }
 }

@@ -18,6 +18,8 @@ website:
         text: Dynamics
       - href: methods.qmd
         text: Methods
+      - href: literature.qmd
+        text: Literature
       - href: about_and_contact.qmd
         text: About & Contact
       - href: hebrew.qmd
