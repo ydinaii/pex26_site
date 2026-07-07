@@ -11,6 +11,14 @@ cytosolic face of the peroxisome. The complex uses ATP hydrolysis to
 retrotranslocate the import receptor PEX5 back to the cytosol, enabling
 repeated rounds of peroxisomal matrix protein import.
 
+::: {.column-margin}
+### 💬 AI Assistant
+
+Chat with an AI trained on the PEX26-F51L literature.
+
+[Open Assistant](https://notebooklm.google.com/notebook/6c5550cb-f1e7-475b-89b1-9422fa615f96/preview){target="_blank"}
+:::
+
 The homozygous missense variant **F51L** in **PEX26** is associated with
 peroxisome biogenesis disorders on the Zellweger spectrum, and has been linked
 to sensorineural hearing loss. It was first described in 2019 in four siblings
