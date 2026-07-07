@@ -1,9 +1,15 @@
 ---
-title: "Papers Citing Tanaka et al. (2019)"
+title: "Literature"
 ---
 
+## Main PEX26-F51L Paper
+
+[Tanaka, Okumoto, Tamura, Abe, Hirsch, Deng, Ekstein, Chung & Fujiki (2019). *A newly identified mutation in the PEX26 gene is associated with a milder form of Zellweger spectrum disorder.* Cold Spring Harbor Molecular Case Studies.](https://molecularcasestudies.cshlp.org/content/5/1/a003483.long)
+
+## Citations
+
 Papers citing the original PEX26-F51L report, fetched live from
-[Semantic Scholar](https://www.semanticscholar.org/paper/e8eec93f5c9e15821b7d041f9e49180f6ce32804).
+Semantic Scholar.
 
 ```{=html}
 <div style="margin-bottom:1rem;">
