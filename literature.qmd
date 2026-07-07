@@ -8,7 +8,7 @@ title: "Literature"
 
 ## Citations
 
-Papers citing the original PEX26-F51L report, fetched live from
+Papers citing the original PEX26-F51L paper, fetched live from
 Semantic Scholar.
 
 ```{=html}

@@ -20,6 +20,8 @@ website:
         text: Methods
       - href: literature.qmd
         text: Literature
+      - href: ai_assistance.qmd
+        text: AI Assistance
       - href: about_and_contact.qmd
         text: About & Contact
       - href: hebrew.qmd
