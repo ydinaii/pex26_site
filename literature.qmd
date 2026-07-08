@@ -8,12 +8,11 @@ title: "Literature"
 
 ## Citations
 
-Papers citing the original PEX26-F51L paper, fetched live from
-Semantic Scholar.
+Papers citing the original PEX26-F51L report, fetched live from Semantic Scholar.
 
 ```{=html}
 <div style="margin-bottom:1rem;">
-  <a id="ss-link" href="https://www.semanticscholar.org/paper/e8eec93f5c9e15821b7d041f9e49180f6ce32804" target="_blank">View on Semantic Scholar</a>
+  <a href="https://www.semanticscholar.org/paper/e8eec93f5c9e15821b7d041f9e49180f6ce32804" target="_blank">View on Semantic Scholar</a>
   <span id="count-badge" style="margin-left:1rem; color:#666;"></span>
 </div>
 <div id="results"></div>
@@ -22,6 +21,19 @@ Semantic Scholar.
 <script>
 const API = 'https://api.semanticscholar.org/graph/v1/paper/e8eec93f5c9e15821b7d041f9e49180f6ce32804?fields=paperId,title,citationCount,citations.title,citations.year,citations.authors,citations.externalIds,citations.journal';
 
+function fetchWithRetry(url, retries=50, delay=1000) {
+  return fetch(url).then(r => {
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.json();
+  }).catch(err => {
+    if (retries > 0) {
+      return new Promise(resolve => setTimeout(resolve, delay))
+        .then(() => fetchWithRetry(url, retries-1, delay*2));
+    }
+    throw err;
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   const status = document.getElementById('status');
   const results = document.getElementById('results');
@@ -29,8 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   status.textContent = 'Loading citations…';
 
-  fetch(API)
-    .then(r => r.json())
+  fetchWithRetry(API)
     .then(data => {
       status.textContent = '';
       const citations = (data.citations || []).sort((a,b) => (b.year||0)-(a.year||0));
@@ -48,7 +59,9 @@ document.addEventListener('DOMContentLoaded', () => {
           + '</div>';
       }).join('');
     })
-    .catch(() => { status.textContent = 'Could not load citations. Please try again later.'; });
+    .catch(() => {
+      status.textContent = 'Could not load citations. Please refresh the page to try again.';
+    });
 });
 </script>
 ```

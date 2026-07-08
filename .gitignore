@@ -1,5 +1,5 @@
 /.quarto/
 /_site/
-
 **/*.quarto_ipynb
 not_for_upload/
+.DS_Store
