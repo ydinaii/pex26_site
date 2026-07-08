@@ -1,5 +1,0 @@
----
-title: "Methods"
----
-
-Content coming soon.

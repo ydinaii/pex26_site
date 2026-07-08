@@ -3,3 +3,5 @@
 **/*.quarto_ipynb
 not_for_upload/
 .DS_Store
+movie.mp4
+sim_screen_rec_web.mp4

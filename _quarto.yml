@@ -17,8 +17,6 @@ website:
         text: Structure
       - href: dynamics.qmd
         text: Dynamics
-      - href: methods.qmd
-        text: Methods
       - href: literature.qmd
         text: Literature
       - href: ai_assistance.qmd
