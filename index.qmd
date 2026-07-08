@@ -21,11 +21,15 @@ the four siblings reported in that study, and [our two
 daughters](about_and_contact.html).
 
 ::: {.column-margin}
-### 💬 PeroxiBot (AI Assistant)
+<div style="color: #333;">
 
-Chat with PeroxiBot, an AI trained on the PEX26-F51L literature.
+### 💬 PeroxiBot (NotebookLM)
+
+Chat with an AI trained on the PEX26-F51L literature.
 
 [Open PeroxiBot](https://notebooklm.google.com/notebook/6c5550cb-f1e7-475b-89b1-9422fa615f96/preview){target="_blank"}
+
+</div>
 :::
 
 ## Key Questions

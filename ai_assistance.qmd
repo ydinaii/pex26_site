@@ -1,9 +1,13 @@
 ---
-title: "PeroxiBot: AI Research Assistant"
+title: "PeroxiBot: AI Research Assistant powered by NotebookLM"
 ---
 
-Chat with PeroxiBot, an AI trained on the PEX26-F51L scientific literature. The
-assistant answers questions based strictly on the uploaded research papers and
-cites its sources.
+PeroxiBot is powered by [NotebookLM](https://notebooklm.google.com), Google's AI 
+research assistant. It has been trained on a curated collection of scientific papers 
+covering the PEX26-F51L mutation, peroxisome biogenesis disorders, and the link between 
+peroxisomal dysfunction and sensorineural hearing loss.
+
+PeroxiBot answers questions based strictly on the uploaded research papers and cites
+its sources for every response.
 
 [💬 Open PeroxiBot](https://notebooklm.google.com/notebook/6c5550cb-f1e7-475b-89b1-9422fa615f96/preview){target="_blank"}
