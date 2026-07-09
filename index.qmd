@@ -54,7 +54,7 @@ We explore conformational ensembles using [BioEmu](https://github.com/microsoft/
   <source src="movie_pex26_bioemu.mp4" type="video/mp4">
 </video>
 
-We also use [GROMACS](https://www.gromacs.org) molecular dynamics simulations to study 
+We use [GROMACS](https://www.gromacs.org) molecular dynamics simulations to study 
 the effect of physical conditions such as temperature on protein behavior, and to 
 characterize how the **PEX26-F51L** mutation affects peroxisome function and ultimately 
 leads to hearing loss.
