@@ -51,7 +51,7 @@ to build accurate structural models of both the wild-type and the **PEX26-F51L**
 We explore conformational ensembles using [BioEmu](https://github.com/microsoft/bioemu).
 
 <video width="100%" controls>
-  <source src="bioemu_ensemble.mp4" type="video/mp4">
+  <source src="movie_pex26_bioemu.mp4" type="video/mp4">
 </video>
 
 We also use [GROMACS](https://www.gromacs.org) molecular dynamics simulations to study 
