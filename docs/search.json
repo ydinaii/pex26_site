@@ -21,6 +21,13 @@
     "text": "Citations\nPapers citing the original PEX26-F51L report, fetched live from Semantic Scholar.\n\n  View on Semantic Scholar"
   },
   {
+    "objectID": "literature.html#related-papers",
+    "href": "literature.html#related-papers",
+    "title": "Literature",
+    "section": "Related Papers",
+    "text": "Related Papers\nLive keyword search across Semantic Scholar. Click a keyword to search, or type your own.\n\n  \n    Keywords:\n    PEX26 F51L\n    PEX26 hearing loss\n    PEX1 PEX6 AAA-ATPase\n    Pex15 peroxisome\n    peroxisome biogenesis hearing loss\n    Zellweger spectrum disorder\n  \n  \n    \n    Search"
+  },
+  {
     "objectID": "ai_assistance.html",
     "href": "ai_assistance.html",
     "title": "PeroxiBot: AI Research Assistant powered by NotebookLM",
@@ -28,81 +35,25 @@
     "text": "PeroxiBot is powered by NotebookLM, Google’s AI research assistant. It has been trained on a curated collection of scientific papers covering the PEX26-F51L mutation, peroxisome biogenesis disorders, and the link between peroxisomal dysfunction and sensorineural hearing loss.\nPeroxiBot answers questions based strictly on the uploaded research papers and cites its sources for every response.\n💬 Open PeroxiBot"
   },
   {
-    "objectID": "not_for_upload/literature_prev.html",
-    "href": "not_for_upload/literature_prev.html",
-    "title": "Literature",
-    "section": "",
-    "text": "Tanaka, Okumoto, Tamura, Abe, Hirsch, Deng, Ekstein, Chung & Fujiki (2019). A newly identified mutation in the PEX26 gene is associated with a milder form of Zellweger spectrum disorder. Cold Spring Harbor Molecular Case Studies."
-  },
-  {
-    "objectID": "not_for_upload/literature_prev.html#main-pex26-f51l-paper",
-    "href": "not_for_upload/literature_prev.html#main-pex26-f51l-paper",
-    "title": "Literature",
-    "section": "",
-    "text": "Tanaka, Okumoto, Tamura, Abe, Hirsch, Deng, Ekstein, Chung & Fujiki (2019). A newly identified mutation in the PEX26 gene is associated with a milder form of Zellweger spectrum disorder. Cold Spring Harbor Molecular Case Studies."
-  },
-  {
-    "objectID": "not_for_upload/literature_prev.html#citations",
-    "href": "not_for_upload/literature_prev.html#citations",
-    "title": "Literature",
-    "section": "Citations",
-    "text": "Citations\nPapers citing the original PEX26-F51L paper, fetched live from Semantic Scholar.\n\n  View on Semantic Scholar"
-  },
-  {
-    "objectID": "about_and_contact.html",
-    "href": "about_and_contact.html",
-    "title": "About & Contact",
-    "section": "",
-    "text": "We are Regina Ring and Yehuda Dinaii. Our journey into peroxisome biology began with a personal discovery: our daughters’ sensorineural hearing loss is caused by the missense mutation PEX26-F51L. This finding drove us to investigate how this mutation disrupts peroxisome biogenesis and ultimately leads to sensorineural hearing loss."
-  },
-  {
-    "objectID": "about_and_contact.html#who-are-we",
-    "href": "about_and_contact.html#who-are-we",
-    "title": "About & Contact",
-    "section": "",
-    "text": "We are Regina Ring and Yehuda Dinaii. Our journey into peroxisome biology began with a personal discovery: our daughters’ sensorineural hearing loss is caused by the missense mutation PEX26-F51L. This finding drove us to investigate how this mutation disrupts peroxisome biogenesis and ultimately leads to sensorineural hearing loss."
-  },
-  {
-    "objectID": "about_and_contact.html#regina-ring",
-    "href": "about_and_contact.html#regina-ring",
-    "title": "About & Contact",
-    "section": "Regina Ring",
-    "text": "Regina Ring\nRegina holds an MSc in Computer Science from Tel Aviv University and a BSc in Information Systems from the Technion — Israel Institute of Technology. She works as a Staff Software Engineer and contributes to the computational and infrastructural aspects of this research.\n📧 regina.ring@gmail.com"
-  },
-  {
-    "objectID": "about_and_contact.html#dr.-yehuda-dinaii",
-    "href": "about_and_contact.html#dr.-yehuda-dinaii",
-    "title": "About & Contact",
-    "section": "Dr. Yehuda Dinaii",
-    "text": "Dr. Yehuda Dinaii\nYehuda holds a PhD in Physics from the Weizmann Institute of Science, where his research focused on theoretical condensed matter physics. He subsequently completed a two-year postdoc at the Ohio State University. In recent years his research direction has shifted toward structural and computational biology, motivated by the search for a deeper understanding of the PEX26-F51L mutation and its consequences.\nHe is an Adjunct Lecturer at Afeka Academic College of Engineering and at Achva Academic College, and his current research focuses on structural and computational modeling of the PEX1/PEX6/PEX26 AAA-ATPase complex.\n📧 yehuda.dinaii@gmail.com"
-  },
-  {
-    "objectID": "russian.html",
-    "href": "russian.html",
-    "title": "Исследование мутации PEX26-F51L",
-    "section": "",
-    "text": "Нас зовут Регина Ринг и Йехуда Динаи. Наш путь в исследование биологии пероксисом начался с обнаружения того, что сенсоневральная потеря слуха у наших дочерей вызвана мутацией PEX26-F51L. Это открытие побудило нас исследовать, как эта мутация нарушает функцию пероксисом и в конечном итоге приводит к потере слуха.\nДополнительные материалы на русском языке будут опубликованы позже.\nСвяжитесь с нами: yehuda.dinaii@gmail.com | regina.ring@gmail.com"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "not_for_upload/methods.html",
+    "href": "not_for_upload/methods.html",
+    "title": "Methods",
     "section": "",
     "text": "Content coming soon."
   },
   {
-    "objectID": "dynamics.html",
-    "href": "dynamics.html",
-    "title": "Molecular Dynamics Simulation",
+    "objectID": "structure.html",
+    "href": "structure.html",
+    "title": "PEX1/PEX6/PEX26 Complex Structure + Membrane",
     "section": "",
-    "text": "The viewer below shows a molecular dynamics simulation trajectory of PEX26.\nTo play the simulation:\n\nClick the animation control button  in the top-left corner of the viewer to open the animation control panel\nClick Start to begin the animation\nTo adjust the speed, change the Duration In S value in the animation control panel\n\nYou can rotate and zoom using your mouse while the simulation is playing."
+    "text": "The viewer below shows an AlphaFold3 model of the PEX1/PEX6/PEX26 complex and part of the peroxisome membrane as prepared with CHARMM-GUI. Use your mouse to rotate, zoom, and explore the structure."
   },
   {
-    "objectID": "dynamics.html#pex26-simulation-trajectory",
-    "href": "dynamics.html#pex26-simulation-trajectory",
-    "title": "Molecular Dynamics Simulation",
+    "objectID": "structure.html#interactive-3d-viewer",
+    "href": "structure.html#interactive-3d-viewer",
+    "title": "PEX1/PEX6/PEX26 Complex Structure + Membrane",
     "section": "",
-    "text": "The viewer below shows a molecular dynamics simulation trajectory of PEX26.\nTo play the simulation:\n\nClick the animation control button  in the top-left corner of the viewer to open the animation control panel\nClick Start to begin the animation\nTo adjust the speed, change the Duration In S value in the animation control panel\n\nYou can rotate and zoom using your mouse while the simulation is playing."
+    "text": "The viewer below shows an AlphaFold3 model of the PEX1/PEX6/PEX26 complex and part of the peroxisome membrane as prepared with CHARMM-GUI. Use your mouse to rotate, zoom, and explore the structure."
   },
   {
     "objectID": "index.html",
@@ -140,25 +91,102 @@
     "text": "Status\nWork in progress — structural models and ensemble analysis ongoing."
   },
   {
-    "objectID": "structure.html",
-    "href": "structure.html",
-    "title": "PEX1/PEX6/PEX26 Complex Structure + Membrane",
+    "objectID": "dynamics.html",
+    "href": "dynamics.html",
+    "title": "Molecular Dynamics Simulation",
     "section": "",
-    "text": "The viewer below shows an AlphaFold3 model of the PEX1/PEX6/PEX26 complex and part of the peroxisome membrane as prepared with CHARMM-GUI. Use your mouse to rotate, zoom, and explore the structure."
+    "text": "The viewer below shows a molecular dynamics simulation trajectory of PEX26.\nTo play the simulation:\n\nClick the animation control button  in the top-left corner of the viewer to open the animation control panel\nClick Start to begin the animation\nTo adjust the speed, change the Duration In S value in the animation control panel\n\nYou can rotate and zoom using your mouse while the simulation is playing."
   },
   {
-    "objectID": "structure.html#interactive-3d-viewer",
-    "href": "structure.html#interactive-3d-viewer",
-    "title": "PEX1/PEX6/PEX26 Complex Structure + Membrane",
+    "objectID": "dynamics.html#pex26-simulation-trajectory",
+    "href": "dynamics.html#pex26-simulation-trajectory",
+    "title": "Molecular Dynamics Simulation",
     "section": "",
-    "text": "The viewer below shows an AlphaFold3 model of the PEX1/PEX6/PEX26 complex and part of the peroxisome membrane as prepared with CHARMM-GUI. Use your mouse to rotate, zoom, and explore the structure."
+    "text": "The viewer below shows a molecular dynamics simulation trajectory of PEX26.\nTo play the simulation:\n\nClick the animation control button  in the top-left corner of the viewer to open the animation control panel\nClick Start to begin the animation\nTo adjust the speed, change the Duration In S value in the animation control panel\n\nYou can rotate and zoom using your mouse while the simulation is playing."
   },
   {
-    "objectID": "not_for_upload/methods.html",
-    "href": "not_for_upload/methods.html",
-    "title": "Methods",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
     "text": "Content coming soon."
+  },
+  {
+    "objectID": "russian.html",
+    "href": "russian.html",
+    "title": "Исследование мутации PEX26-F51L",
+    "section": "",
+    "text": "Нас зовут Регина Ринг и Йехуда Динаи. Наш путь в исследование биологии пероксисом начался с обнаружения того, что сенсоневральная потеря слуха у наших дочерей вызвана мутацией PEX26-F51L. Это открытие побудило нас исследовать, как эта мутация нарушает функцию пероксисом и в конечном итоге приводит к потере слуха.\nДополнительные материалы на русском языке будут опубликованы позже.\nСвяжитесь с нами: yehuda.dinaii@gmail.com | regina.ring@gmail.com"
+  },
+  {
+    "objectID": "about_and_contact.html",
+    "href": "about_and_contact.html",
+    "title": "About & Contact",
+    "section": "",
+    "text": "We are Regina Ring and Yehuda Dinaii. Our journey into peroxisome biology began with a personal discovery: our daughters’ sensorineural hearing loss is caused by the missense mutation PEX26-F51L. This finding drove us to investigate how this mutation disrupts peroxisome biogenesis and ultimately leads to sensorineural hearing loss."
+  },
+  {
+    "objectID": "about_and_contact.html#who-are-we",
+    "href": "about_and_contact.html#who-are-we",
+    "title": "About & Contact",
+    "section": "",
+    "text": "We are Regina Ring and Yehuda Dinaii. Our journey into peroxisome biology began with a personal discovery: our daughters’ sensorineural hearing loss is caused by the missense mutation PEX26-F51L. This finding drove us to investigate how this mutation disrupts peroxisome biogenesis and ultimately leads to sensorineural hearing loss."
+  },
+  {
+    "objectID": "about_and_contact.html#regina-ring",
+    "href": "about_and_contact.html#regina-ring",
+    "title": "About & Contact",
+    "section": "Regina Ring",
+    "text": "Regina Ring\nRegina holds an MSc in Computer Science from Tel Aviv University and a BSc in Information Systems from the Technion — Israel Institute of Technology. She works as a Staff Software Engineer and contributes to the computational and infrastructural aspects of this research.\n📧 regina.ring@gmail.com"
+  },
+  {
+    "objectID": "about_and_contact.html#dr.-yehuda-dinaii",
+    "href": "about_and_contact.html#dr.-yehuda-dinaii",
+    "title": "About & Contact",
+    "section": "Dr. Yehuda Dinaii",
+    "text": "Dr. Yehuda Dinaii\nYehuda holds a PhD in Physics from the Weizmann Institute of Science, where his research focused on theoretical condensed matter physics. He subsequently completed a two-year postdoc at the Ohio State University. In recent years his research direction has shifted toward structural and computational biology, motivated by the search for a deeper understanding of the PEX26-F51L mutation and its consequences.\nHe is an Adjunct Lecturer at Afeka Academic College of Engineering and at Achva Academic College, and his current research focuses on structural and computational modeling of the PEX1/PEX6/PEX26 AAA-ATPase complex.\n📧 yehuda.dinaii@gmail.com"
+  },
+  {
+    "objectID": "not_for_upload/literature_prev.html",
+    "href": "not_for_upload/literature_prev.html",
+    "title": "Literature",
+    "section": "",
+    "text": "Tanaka, Okumoto, Tamura, Abe, Hirsch, Deng, Ekstein, Chung & Fujiki (2019). A newly identified mutation in the PEX26 gene is associated with a milder form of Zellweger spectrum disorder. Cold Spring Harbor Molecular Case Studies."
+  },
+  {
+    "objectID": "not_for_upload/literature_prev.html#main-pex26-f51l-paper",
+    "href": "not_for_upload/literature_prev.html#main-pex26-f51l-paper",
+    "title": "Literature",
+    "section": "",
+    "text": "Tanaka, Okumoto, Tamura, Abe, Hirsch, Deng, Ekstein, Chung & Fujiki (2019). A newly identified mutation in the PEX26 gene is associated with a milder form of Zellweger spectrum disorder. Cold Spring Harbor Molecular Case Studies."
+  },
+  {
+    "objectID": "not_for_upload/literature_prev.html#citations",
+    "href": "not_for_upload/literature_prev.html#citations",
+    "title": "Literature",
+    "section": "Citations",
+    "text": "Citations\nPapers citing the original PEX26-F51L paper, fetched live from Semantic Scholar.\n\n  View on Semantic Scholar"
+  },
+  {
+    "objectID": "not_for_upload/literature.html",
+    "href": "not_for_upload/literature.html",
+    "title": "Literature",
+    "section": "",
+    "text": "Tanaka, Okumoto, Tamura, Abe, Hirsch, Deng, Ekstein, Chung & Fujiki (2019). A newly identified mutation in the PEX26 gene is associated with a milder form of Zellweger spectrum disorder. Cold Spring Harbor Molecular Case Studies."
+  },
+  {
+    "objectID": "not_for_upload/literature.html#main-pex26-f51l-paper",
+    "href": "not_for_upload/literature.html#main-pex26-f51l-paper",
+    "title": "Literature",
+    "section": "",
+    "text": "Tanaka, Okumoto, Tamura, Abe, Hirsch, Deng, Ekstein, Chung & Fujiki (2019). A newly identified mutation in the PEX26 gene is associated with a milder form of Zellweger spectrum disorder. Cold Spring Harbor Molecular Case Studies."
+  },
+  {
+    "objectID": "not_for_upload/literature.html#citations",
+    "href": "not_for_upload/literature.html#citations",
+    "title": "Literature",
+    "section": "Citations",
+    "text": "Citations\nPapers citing the original PEX26-F51L report, fetched live from Semantic Scholar.\n\n  View on Semantic Scholar"
   },
   {
     "objectID": "hebrew.html",

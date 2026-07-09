@@ -28,7 +28,7 @@ function fetchWithRetry(url, retries=50, delay=1000) {
   }).catch(err => {
     if (retries > 0) {
       return new Promise(resolve => setTimeout(resolve, delay))
-        .then(() => fetchWithRetry(url, retries-1, delay*2));
+        .then(() => fetchWithRetry(url, retries-1, delay));
     }
     throw err;
   });
@@ -63,5 +63,67 @@ document.addEventListener('DOMContentLoaded', () => {
       status.textContent = 'Could not load citations. Please refresh the page to try again.';
     });
 });
+</script>
+```
+
+## Related Papers
+
+Live keyword search across Semantic Scholar. Click a keyword to search, or type your own.
+
+```{=html}
+<div style="margin-bottom:1rem;">
+  <div style="margin-bottom:0.5rem;">
+    <strong>Keywords:</strong>
+    <button onclick="searchPapers('PEX26 F51L')" style="margin:3px; padding:4px 10px; cursor:pointer; border-radius:4px;">PEX26 F51L</button>
+    <button onclick="searchPapers('PEX26 hearing loss')" style="margin:3px; padding:4px 10px; cursor:pointer; border-radius:4px;">PEX26 hearing loss</button>
+    <button onclick="searchPapers('PEX1 PEX6 AAA-ATPase')" style="margin:3px; padding:4px 10px; cursor:pointer; border-radius:4px;">PEX1 PEX6 AAA-ATPase</button>
+    <button onclick="searchPapers('Pex15 peroxisome')" style="margin:3px; padding:4px 10px; cursor:pointer; border-radius:4px;">Pex15 peroxisome</button>
+    <button onclick="searchPapers('peroxisome biogenesis hearing loss')" style="margin:3px; padding:4px 10px; cursor:pointer; border-radius:4px;">peroxisome biogenesis hearing loss</button>
+    <button onclick="searchPapers('Zellweger spectrum disorder')" style="margin:3px; padding:4px 10px; cursor:pointer; border-radius:4px;">Zellweger spectrum disorder</button>
+  </div>
+  <div style="display:flex; gap:8px; margin-top:0.5rem;">
+    <input id="search-input" type="text" placeholder="Type your own keyword..." style="flex:1; padding:6px 10px; border:1px solid #ccc; border-radius:4px;"/>
+    <button onclick="searchPapers(document.getElementById('search-input').value)" style="padding:6px 14px; cursor:pointer; border-radius:4px;">Search</button>
+  </div>
+</div>
+<div id="search-count" style="color:#666; font-size:0.9em; margin-bottom:0.5rem;"></div>
+<div id="search-results"></div>
+<div id="search-status"></div>
+
+<script>
+function searchPapers(query) {
+  if (!query.trim()) return;
+  const searchResults = document.getElementById('search-results');
+  const searchStatus = document.getElementById('search-status');
+  const searchCount = document.getElementById('search-count');
+
+  searchResults.innerHTML = '';
+  searchCount.textContent = '';
+  searchStatus.textContent = 'Searching for "' + query + '"…';
+
+  const url = 'https://api.semanticscholar.org/graph/v1/paper/search?query=' + encodeURIComponent(query) + '&fields=title,year,authors,journal,externalIds&limit=20';
+
+  fetchWithRetry(url)
+    .then(data => {
+      searchStatus.textContent = '';
+      const papers = data.data || [];
+      searchCount.textContent = papers.length + ' results for "' + query + '"';
+      if (papers.length === 0) { searchStatus.textContent = 'No results found.'; return; }
+      searchResults.innerHTML = papers.map(p => {
+        const authors = (p.authors||[]).map(a => a.name).join(', ');
+        const journal = p.journal?.name || '';
+        const year = p.year || '';
+        const doi = p.externalIds?.DOI;
+        const url = doi ? 'https://doi.org/' + doi : (p.paperId ? 'https://www.semanticscholar.org/paper/' + p.paperId : null);
+        return '<div style="border-top:1px solid #ddd; padding:0.85rem 0;">'
+          + '<p style="margin:0 0 4px; font-weight:500;">' + (url ? '<a href="' + url + '" target="_blank">' + (p.title||'Untitled') + '</a>' : (p.title||'Untitled')) + '</p>'
+          + '<p style="margin:0; font-size:0.9em; color:#666;">' + (authors ? authors + ' · ' : '') + (journal ? journal + ' · ' : '') + year + '</p>'
+          + '</div>';
+      }).join('');
+    })
+    .catch(() => {
+      searchStatus.textContent = 'Search failed. Please try again.';
+    });
+}
 </script>
 ```
