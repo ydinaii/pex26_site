@@ -169,6 +169,20 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<script>
+function fetchWithRetry(url, retries=50, delay=1000) {
+  return fetch(url).then(r => {
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.json();
+  }).catch(err => {
+    if (retries > 0) {
+      return new Promise(resolve => setTimeout(resolve, delay))
+        .then(() => fetchWithRetry(url, retries-1, delay));
+    }
+    throw err;
+  });
+}
+</script>
 <section id="main-pex26-f51l-paper" class="level2">
 <h2 class="anchored" data-anchor-id="main-pex26-f51l-paper">Main PEX26-F51L Paper</h2>
 <p><a href="https://molecularcasestudies.cshlp.org/content/5/1/a003483.long">Tanaka, Okumoto, Tamura, Abe, Hirsch, Deng, Ekstein, Chung &amp; Fujiki (2019). <em>A newly identified mutation in the PEX26 gene is associated with a milder form of Zellweger spectrum disorder.</em> Cold Spring Harbor Molecular Case Studies.</a></p>
@@ -184,22 +198,8 @@ ul.task-list li input[type="checkbox"] {
 <div id="status"></div>
 
 <script>
-const API = 'https://api.semanticscholar.org/graph/v1/paper/e8eec93f5c9e15821b7d041f9e49180f6ce32804?fields=paperId,title,citationCount,citations.title,citations.year,citations.authors,citations.externalIds,citations.journal';
-
-function fetchWithRetry(url, retries=50, delay=1000) {
-  return fetch(url).then(r => {
-    if (!r.ok) throw new Error('HTTP ' + r.status);
-    return r.json();
-  }).catch(err => {
-    if (retries > 0) {
-      return new Promise(resolve => setTimeout(resolve, delay))
-        .then(() => fetchWithRetry(url, retries-1, delay));
-    }
-    throw err;
-  });
-}
-
 document.addEventListener('DOMContentLoaded', () => {
+  const API = 'https://api.semanticscholar.org/graph/v1/paper/e8eec93f5c9e15821b7d041f9e49180f6ce32804?fields=paperId,title,citationCount,citations.title,citations.year,citations.authors,citations.externalIds,citations.journal';
   const status = document.getElementById('status');
   const results = document.getElementById('results');
   const badge = document.getElementById('count-badge');
