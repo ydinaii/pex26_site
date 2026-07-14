@@ -105,13 +105,6 @@
     "text": "The viewer below shows a molecular dynamics simulation trajectory of PEX26 produced with GROMACS.\nTo play the simulation:\n\nClick the animation control button  in the top-left corner of the viewer to open the animation control panel\nClick Start to begin the animation\nTo adjust the speed, change the Duration In S value in the animation control panel\n\nYou can rotate and zoom using your mouse while the simulation is playing.\nFor full controls, open in Mol* viewer."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Content coming soon."
-  },
-  {
     "objectID": "russian.html",
     "href": "russian.html",
     "title": "Исследование мутации PEX26-F51L",
