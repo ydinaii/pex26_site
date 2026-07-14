@@ -28,65 +28,121 @@
     "text": "Related Papers\nLive keyword search across Semantic Scholar. Click a keyword to search, or type your own.\n\n  \n    Keywords:\n    PEX26 F51L\n    PEX26 hearing loss\n    PEX1 PEX6 AAA-ATPase\n    Pex15 peroxisome\n    peroxisome biogenesis hearing loss\n    Zellweger spectrum disorder\n  \n  \n    \n    Search"
   },
   {
-    "objectID": "ai_assistance.html",
-    "href": "ai_assistance.html",
-    "title": "PeroxiBot: AI Research Assistant powered by NotebookLM",
+    "objectID": "collaborators.html",
+    "href": "collaborators.html",
+    "title": "Collaborators",
     "section": "",
-    "text": "PeroxiBot is powered by NotebookLM, Google’s AI research assistant. It has been trained on a curated collection of scientific papers covering the PEX26-F51L mutation, peroxisome biogenesis disorders, and the link between peroxisomal dysfunction and sensorineural hearing loss.\nPeroxiBot answers questions based strictly on the uploaded research papers and cites its sources for every response.\n💬 Open PeroxiBot"
+    "text": "We are grateful to collaborate with leading research groups specializing in peroxisome biology and genetic hearing loss."
   },
   {
-    "objectID": "not_for_upload/methods.html",
-    "href": "not_for_upload/methods.html",
-    "title": "Methods",
+    "objectID": "collaborators.html#dr.-einat-zalckvar",
+    "href": "collaborators.html#dr.-einat-zalckvar",
+    "title": "Collaborators",
+    "section": "Dr. Einat Zalckvar",
+    "text": "Dr. Einat Zalckvar\n\n  \n  \n    Dr. Einat Zalckvar\n    Zalckvar Lab"
+  },
+  {
+    "objectID": "not_for_upload/literature.html",
+    "href": "not_for_upload/literature.html",
+    "title": "Literature",
     "section": "",
-    "text": "Content coming soon."
+    "text": "Tanaka, Okumoto, Tamura, Abe, Hirsch, Deng, Ekstein, Chung & Fujiki (2019). A newly identified mutation in the PEX26 gene is associated with a milder form of Zellweger spectrum disorder. Cold Spring Harbor Molecular Case Studies."
+  },
+  {
+    "objectID": "not_for_upload/literature.html#main-pex26-f51l-paper",
+    "href": "not_for_upload/literature.html#main-pex26-f51l-paper",
+    "title": "Literature",
+    "section": "",
+    "text": "Tanaka, Okumoto, Tamura, Abe, Hirsch, Deng, Ekstein, Chung & Fujiki (2019). A newly identified mutation in the PEX26 gene is associated with a milder form of Zellweger spectrum disorder. Cold Spring Harbor Molecular Case Studies."
+  },
+  {
+    "objectID": "not_for_upload/literature.html#citations",
+    "href": "not_for_upload/literature.html#citations",
+    "title": "Literature",
+    "section": "Citations",
+    "text": "Citations\nPapers citing the original PEX26-F51L report, fetched live from Semantic Scholar.\n\n  View on Semantic Scholar"
+  },
+  {
+    "objectID": "not_for_upload/index_prev.html",
+    "href": "not_for_upload/index_prev.html",
+    "title": "PEX26-F51L Research",
+    "section": "",
+    "text": "Peroxisome biogenesis factor 26 (PEX26) is a tail-anchored peroxisomal membrane protein that recruits and anchors the hexameric AAA-ATPase complex PEX1–PEX6 to the cytosolic face of the peroxisome. The complex uses ATP hydrolysis to retrotranslocate the import receptor PEX5 back to the cytosol, enabling repeated rounds of peroxisomal matrix protein import.\nThe homozygous missense variant F51L in PEX26 is associated with peroxisome biogenesis disorders on the Zellweger spectrum, and has been linked to sensorineural hearing loss. It was first described in 2019 in four siblings from an Ashkenazi Jewish family [Tanaka et al. (2019)]. To our knowledge, only six individuals worldwide are known to carry this mutation: the four siblings reported in that study, and our two daughters.\n\n\n\n\nChat with an AI trained on the PEX26-F51L literature.\nOpen PeroxiBot"
+  },
+  {
+    "objectID": "not_for_upload/index_prev.html#overview",
+    "href": "not_for_upload/index_prev.html#overview",
+    "title": "PEX26-F51L Research",
+    "section": "",
+    "text": "Peroxisome biogenesis factor 26 (PEX26) is a tail-anchored peroxisomal membrane protein that recruits and anchors the hexameric AAA-ATPase complex PEX1–PEX6 to the cytosolic face of the peroxisome. The complex uses ATP hydrolysis to retrotranslocate the import receptor PEX5 back to the cytosol, enabling repeated rounds of peroxisomal matrix protein import.\nThe homozygous missense variant F51L in PEX26 is associated with peroxisome biogenesis disorders on the Zellweger spectrum, and has been linked to sensorineural hearing loss. It was first described in 2019 in four siblings from an Ashkenazi Jewish family [Tanaka et al. (2019)]. To our knowledge, only six individuals worldwide are known to carry this mutation: the four siblings reported in that study, and our two daughters.\n\n\n\n\nChat with an AI trained on the PEX26-F51L literature.\nOpen PeroxiBot"
+  },
+  {
+    "objectID": "not_for_upload/index_prev.html#key-questions",
+    "href": "not_for_upload/index_prev.html#key-questions",
+    "title": "PEX26-F51L Research",
+    "section": "Key Questions",
+    "text": "Key Questions\n\nHow does F51L alter the structure and dynamics of the PEX26 cytosolic domain?\nDoes the mutation affect recruitment or binding of the PEX1/PEX6 complex?\nHow is this related to sensorineural hearing loss?"
+  },
+  {
+    "objectID": "not_for_upload/index_prev.html#what-we-do",
+    "href": "not_for_upload/index_prev.html#what-we-do",
+    "title": "PEX26-F51L Research",
+    "section": "What We Do",
+    "text": "What We Do\nWe use AlphaFold 3 for structure prediction and CHARMM-GUI for the peroxisome membrane to build accurate structural models of both the wild-type and the PEX26-F51L variant.\n\n\n\nWe explore conformational ensembles using BioEmu.\n\n\n\nWe use GROMACS molecular dynamics simulations to study the effect of physical conditions such as temperature on protein behavior, and to characterize how the PEX26-F51L mutation affects peroxisome function and ultimately leads to hearing loss.\n\n\n\nWe collaborate with university laboratories specializing in peroxisome biology and genetic hearing loss. We have contributed patient-derived fibroblasts to these collaborations and have a mouse model of the mutation.\nOur long-term goal is to advance a therapeutic pathway for this condition. We hope that our work will also contribute to the broader understanding of more severe peroxisomal diseases on the Zellweger spectrum."
+  },
+  {
+    "objectID": "not_for_upload/index_prev.html#status",
+    "href": "not_for_upload/index_prev.html#status",
+    "title": "PEX26-F51L Research",
+    "section": "Status",
+    "text": "Status\nWork in progress — structural models and ensemble analysis ongoing."
   },
   {
     "objectID": "structure.html",
     "href": "structure.html",
     "title": "PEX1/PEX6/PEX26 Complex Structure + Membrane",
     "section": "",
-    "text": "The viewer below shows an AlphaFold3 model of the PEX1/PEX6/PEX26 complex and part of the peroxisome membrane as prepared with CHARMM-GUI. Use your mouse to rotate, zoom, and explore the structure."
+    "text": "The viewer below shows an AlphaFold 3 model of the PEX1/PEX6/PEX26 complex and part of the peroxisome membrane as prepared with CHARMM-GUI. Use your mouse to rotate, zoom, and explore the structure.\nFor full controls, open in Mol* viewer."
   },
   {
     "objectID": "structure.html#interactive-3d-viewer",
     "href": "structure.html#interactive-3d-viewer",
     "title": "PEX1/PEX6/PEX26 Complex Structure + Membrane",
     "section": "",
-    "text": "The viewer below shows an AlphaFold3 model of the PEX1/PEX6/PEX26 complex and part of the peroxisome membrane as prepared with CHARMM-GUI. Use your mouse to rotate, zoom, and explore the structure."
+    "text": "The viewer below shows an AlphaFold 3 model of the PEX1/PEX6/PEX26 complex and part of the peroxisome membrane as prepared with CHARMM-GUI. Use your mouse to rotate, zoom, and explore the structure.\nFor full controls, open in Mol* viewer."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "PEX26-F51L Research",
+    "title": "PEX26-F51L Research | Regina Ring & Yehuda Dinaii",
     "section": "",
-    "text": "Peroxisome biogenesis factor 26 (PEX26) is a tail-anchored peroxisomal membrane protein that recruits and anchors the hexameric AAA-ATPase complex PEX1–PEX6 to the cytosolic face of the peroxisome. The complex uses ATP hydrolysis to retrotranslocate the import receptor PEX5 back to the cytosol, enabling repeated rounds of peroxisomal matrix protein import.\nThe homozygous missense variant F51L in PEX26 is associated with peroxisome biogenesis disorders on the Zellweger spectrum, and has been linked to sensorineural hearing loss. It was first described in 2019 in four siblings from an Ashkenazi Jewish family [Tanaka et al. (2019)]. To our knowledge, only six individuals worldwide are known to carry this mutation: the four siblings reported in that study, and our two daughters.\n\n\n\n\nChat with an AI trained on the PEX26-F51L literature.\nOpen PeroxiBot"
+    "text": "Computational and structural analysis of a peroxisomal disease variant\n\nJuly 14, 2026"
   },
   {
     "objectID": "index.html#overview",
     "href": "index.html#overview",
-    "title": "PEX26-F51L Research",
-    "section": "",
-    "text": "Peroxisome biogenesis factor 26 (PEX26) is a tail-anchored peroxisomal membrane protein that recruits and anchors the hexameric AAA-ATPase complex PEX1–PEX6 to the cytosolic face of the peroxisome. The complex uses ATP hydrolysis to retrotranslocate the import receptor PEX5 back to the cytosol, enabling repeated rounds of peroxisomal matrix protein import.\nThe homozygous missense variant F51L in PEX26 is associated with peroxisome biogenesis disorders on the Zellweger spectrum, and has been linked to sensorineural hearing loss. It was first described in 2019 in four siblings from an Ashkenazi Jewish family [Tanaka et al. (2019)]. To our knowledge, only six individuals worldwide are known to carry this mutation: the four siblings reported in that study, and our two daughters.\n\n\n\n\nChat with an AI trained on the PEX26-F51L literature.\nOpen PeroxiBot"
+    "title": "PEX26-F51L Research | Regina Ring & Yehuda Dinaii",
+    "section": "Overview",
+    "text": "Overview\nPeroxisome biogenesis factor 26 (PEX26) is a tail-anchored peroxisomal membrane protein that recruits and anchors the hexameric AAA-ATPase complex PEX1–PEX6 to the cytosolic face of the peroxisome. The complex uses ATP hydrolysis to retrotranslocate the import receptor PEX5 back to the cytosol, enabling repeated rounds of peroxisomal matrix protein import. In yeast, Pex15 is the functional homologue of human PEX26.\nThe homozygous missense variant F51L in PEX26 is associated with peroxisome biogenesis disorders on the Zellweger spectrum, and has been linked to sensorineural hearing loss. It was first described in 2019 in four siblings from an Ashkenazi Jewish family [Tanaka et al. (2019)]. To our knowledge, only six individuals worldwide are known to carry this mutation: the four siblings reported in that study, and our two daughters.\n\n\n\n💬 PeroxiBot (NotebookLM)\nChat with an AI trained on the PEX26-F51L literature.\nOpen PeroxiBot\n\nLast updated: July 14, 2026"
   },
   {
     "objectID": "index.html#key-questions",
     "href": "index.html#key-questions",
-    "title": "PEX26-F51L Research",
+    "title": "PEX26-F51L Research | Regina Ring & Yehuda Dinaii",
     "section": "Key Questions",
     "text": "Key Questions\n\nHow does F51L alter the structure and dynamics of the PEX26 cytosolic domain?\nDoes the mutation affect recruitment or binding of the PEX1/PEX6 complex?\nHow is this related to sensorineural hearing loss?"
   },
   {
     "objectID": "index.html#what-we-do",
     "href": "index.html#what-we-do",
-    "title": "PEX26-F51L Research",
+    "title": "PEX26-F51L Research | Regina Ring & Yehuda Dinaii",
     "section": "What We Do",
-    "text": "What We Do\nWe use AlphaFold 3 for structure prediction and CHARMM-GUI for the peroxisome membrane to build accurate structural models of both the wild-type and the PEX26-F51L variant.\n\n\n\nWe explore conformational ensembles using BioEmu.\n\n\n\nWe use GROMACS molecular dynamics simulations to study the effect of physical conditions such as temperature on protein behavior, and to characterize how the PEX26-F51L mutation affects peroxisome function and ultimately leads to hearing loss.\n\n\n\nWe collaborate with university laboratories specializing in peroxisome biology and genetic hearing loss. We have contributed patient-derived fibroblasts to these collaborations and have a mouse model of the mutation.\nOur long-term goal is to advance a therapeutic pathway for this condition. We hope that our work will also contribute to the broader understanding of more severe peroxisomal diseases on the Zellweger spectrum."
+    "text": "What We Do\nWe use AlphaFold 3 for structure prediction and CHARMM-GUI for the peroxisome membrane to build accurate structural models of both the wild-type and the PEX26-F51L variant.\n\n\n\n\n\nMovie 1: The PEX1/PEX6/PEX26 complex docked to the peroxisome membrane, generated by AlphaFold 3 and CHARMM-GUI. For an interactive view with Mol* explore the structure here.\n\n\nWe modeled the PEX1/PEX6/PEX26 double ring D1-D2 domains with a portion of PEX5 inserted in the central pore.\n\n\n\n\n\nMovie 2: The PEX1/PEX6/PEX26 double ring D1-D2 domains with a portion of PEX5 inserted in the central pore, generated by AlphaFold 3.\n\n\nWe explore conformational ensembles using BioEmu.\n\n\n\n\n\nMovie 3: Conformational ensemble of PEX26 generated by BioEmu.\n\n\nWe use GROMACS molecular dynamics simulations to study the effect of physical conditions such as temperature on protein behavior, and to characterize how the PEX26-F51L mutation affects peroxisome function and ultimately leads to hearing loss.\n\n\n\n\n\nMovie 4: Molecular dynamics simulation of PEX26 in water with increasing and decreasing temperature, produced with GROMACS. For an interactive view with Mol* explore the dynamics here.\n\n\nWe collaborate with university laboratories specializing in peroxisome biology and genetic hearing loss. We have contributed patient-derived fibroblasts to these collaborations and have a mouse model of the mutation.\nOur long-term goal is to advance a therapeutic pathway for this condition. We hope that our work will also contribute to the broader understanding of more severe peroxisomal diseases on the Zellweger spectrum."
   },
   {
     "objectID": "index.html#status",
     "href": "index.html#status",
-    "title": "PEX26-F51L Research",
+    "title": "PEX26-F51L Research | Regina Ring & Yehuda Dinaii",
     "section": "Status",
     "text": "Status\nWork in progress — structural models and ensemble analysis ongoing."
   },
@@ -95,14 +151,14 @@
     "href": "dynamics.html",
     "title": "Molecular Dynamics Simulation",
     "section": "",
-    "text": "The viewer below shows a molecular dynamics simulation trajectory of PEX26.\nTo play the simulation:\n\nClick the animation control button  in the top-left corner of the viewer to open the animation control panel\nClick Start to begin the animation\nTo adjust the speed, change the Duration In S value in the animation control panel\n\nYou can rotate and zoom using your mouse while the simulation is playing."
+    "text": "The viewer below shows a molecular dynamics simulation trajectory of PEX26 produced with GROMACS.\nTo play the simulation:\n\nClick the animation control button  in the top-left corner of the viewer to open the animation control panel\nClick Start to begin the animation\nTo adjust the speed, change the Duration In S value in the animation control panel\n\nYou can rotate and zoom using your mouse while the simulation is playing.\nFor full controls, open in Mol* viewer."
   },
   {
     "objectID": "dynamics.html#pex26-simulation-trajectory",
     "href": "dynamics.html#pex26-simulation-trajectory",
     "title": "Molecular Dynamics Simulation",
     "section": "",
-    "text": "The viewer below shows a molecular dynamics simulation trajectory of PEX26.\nTo play the simulation:\n\nClick the animation control button  in the top-left corner of the viewer to open the animation control panel\nClick Start to begin the animation\nTo adjust the speed, change the Duration In S value in the animation control panel\n\nYou can rotate and zoom using your mouse while the simulation is playing."
+    "text": "The viewer below shows a molecular dynamics simulation trajectory of PEX26 produced with GROMACS.\nTo play the simulation:\n\nClick the animation control button  in the top-left corner of the viewer to open the animation control panel\nClick Start to begin the animation\nTo adjust the speed, change the Duration In S value in the animation control panel\n\nYou can rotate and zoom using your mouse while the simulation is playing.\nFor full controls, open in Mol* viewer."
   },
   {
     "objectID": "research.html",
@@ -168,25 +224,18 @@
     "text": "Citations\nPapers citing the original PEX26-F51L paper, fetched live from Semantic Scholar.\n\n  View on Semantic Scholar"
   },
   {
-    "objectID": "not_for_upload/literature.html",
-    "href": "not_for_upload/literature.html",
-    "title": "Literature",
+    "objectID": "not_for_upload/methods.html",
+    "href": "not_for_upload/methods.html",
+    "title": "Methods",
     "section": "",
-    "text": "Tanaka, Okumoto, Tamura, Abe, Hirsch, Deng, Ekstein, Chung & Fujiki (2019). A newly identified mutation in the PEX26 gene is associated with a milder form of Zellweger spectrum disorder. Cold Spring Harbor Molecular Case Studies."
+    "text": "Content coming soon."
   },
   {
-    "objectID": "not_for_upload/literature.html#main-pex26-f51l-paper",
-    "href": "not_for_upload/literature.html#main-pex26-f51l-paper",
-    "title": "Literature",
+    "objectID": "ai_assistance.html",
+    "href": "ai_assistance.html",
+    "title": "PeroxiBot: AI Research Assistant powered by NotebookLM",
     "section": "",
-    "text": "Tanaka, Okumoto, Tamura, Abe, Hirsch, Deng, Ekstein, Chung & Fujiki (2019). A newly identified mutation in the PEX26 gene is associated with a milder form of Zellweger spectrum disorder. Cold Spring Harbor Molecular Case Studies."
-  },
-  {
-    "objectID": "not_for_upload/literature.html#citations",
-    "href": "not_for_upload/literature.html#citations",
-    "title": "Literature",
-    "section": "Citations",
-    "text": "Citations\nPapers citing the original PEX26-F51L report, fetched live from Semantic Scholar.\n\n  View on Semantic Scholar"
+    "text": "PeroxiBot is powered by NotebookLM, Google’s AI research assistant. It has been trained on a curated collection of scientific papers covering the PEX26-F51L mutation, peroxisome biogenesis disorders, and the link between peroxisomal dysfunction and sensorineural hearing loss.\nPeroxiBot answers questions based strictly on the uploaded research papers and cites its sources for every response.\n💬 Open PeroxiBot"
   },
   {
     "objectID": "hebrew.html",

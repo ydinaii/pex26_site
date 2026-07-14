@@ -1,0 +1,21 @@
+---
+title: "Collaborators"
+---
+
+We are grateful to collaborate with leading research groups specializing in peroxisome
+biology and genetic hearing loss.
+
+---
+
+## Dr. Einat Zalckvar
+
+```{=html}
+<div style="display: flex; align-items: center; gap: 1.5rem; margin-bottom: 1.5rem;">
+  <img src="Einat_new.avif" width="150" style="border-radius: 8px;">
+  <div>
+    <strong>Dr. Einat Zalckvar</strong><br>
+    <a href="https://www.zalckvarlab.com" target="_blank">Zalckvar Lab</a>
+  </div>
+</div>
+```
+

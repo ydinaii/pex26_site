@@ -13,3 +13,10 @@ body {
 .navbar .nav-link, .navbar-brand {
   color: #ffffff !important;
 }
+
+figcaption {
+  font-size: 0.9em;
+  margin-top: 0.6rem;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+}

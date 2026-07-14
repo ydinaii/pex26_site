@@ -4,7 +4,7 @@ project:
 
 website:
   title: "PEX26-F51L Research"
-  description: "Structural and computational analysis of the PEX26-F51L mutation and its role in peroxisome biogenesis and sensorineural hearing loss. Research by Yehuda Dinaii and Regina Ring."
+  description: "Structural and computational analysis of the PEX26-F51L (F51L) mutation in PEX26 and its role in peroxisome biogenesis and sensorineural hearing loss. Research by Yehuda Dinaii and Regina Ring."
   site-url: "https://ydinaii.github.io/pex26_site"
   favicon: favicon.png
   navbar:
@@ -19,6 +19,8 @@ website:
         text: Literature
       - href: ai_assistance.qmd
         text: PeroxiBot
+      - href: collaborators.qmd
+        text: Collaborators
       - href: about_and_contact.qmd
         text: About & Contact
       - href: hebrew.qmd
@@ -31,3 +33,6 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    include-in-header:
+      text: |
+        <meta name="keywords" content="PEX26, PEX26-F51L, F51L, PEX1, PEX6, Pex15, AAA-ATPase, Pex1p, Pex6p, Pex26p, ATP, ADP, D1, D2, N1, N2, domains, peroxisome biogenesis, Zellweger spectrum, sensorineural hearing loss, peroxisomal disorder, hearing loss genetics">
