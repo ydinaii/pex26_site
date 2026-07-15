@@ -2,7 +2,7 @@
   "kind": "multiple",
   "metadata": {
     "description": "PEX1-PEX6-PEX26-PEX5 complex — scene navigation",
-    "timestamp": "2026-07-15T20:56:16.623555+00:00",
+    "timestamp": "2026-07-15T22:15:41.983658+00:00",
     "version": "1.8"
   },
   "snapshots": [
@@ -1265,7 +1265,7 @@
       "metadata": {
         "title": "Cartoon view",
         "description": "Domain-colored cartoon (PEX1/PEX6 domains, Walker motifs, ISS, PEX26, PEX5).",
-        "key": "fffce221-e362-423d-820f-d1f91fe5c330",
+        "key": "ef376a19-34bc-4755-b004-1c3883c4391e",
         "linger_duration_ms": 1000
       }
     },
@@ -2551,8 +2551,8 @@
       },
       "metadata": {
         "title": "Surface view",
-        "description": "Same as cartoon view, with PEX5 shown as a semi-transparent surface.",
-        "key": "bc8f2413-6e39-4a7d-9624-b1613cfe4633",
+        "description": "Same as cartoon view, with PEX5 (if applicable) shown as a semi-transparent surface.",
+        "key": "34be90be-bc18-425b-8bf0-590d79f3fb6d",
         "linger_duration_ms": 1000
       }
     },
@@ -2639,8 +2639,106 @@
       },
       "metadata": {
         "title": "pLDDT view",
-        "description": "Colored by predicted confidence (B-factor), matching `spectrum b, tv_orange_yellow_marine_blue, minimum=20, maximum=100`.",
-        "key": "7524d4f8-77ab-4391-8d98-ab893e57c4e4",
+        "description": "Colored by predicted confidence (B-factor), continuous gradient matching `spectrum b, tv_orange tv_yellow marine blue, minimum=20, maximum=100`.",
+        "key": "614f3eb7-5a66-4889-8a28-1a30fea76312",
+        "linger_duration_ms": 1000
+      }
+    },
+    {
+      "root": {
+        "kind": "root",
+        "children": [
+          {
+            "kind": "download",
+            "params": {
+              "url": "https://ydinaii.github.io/pex26_site/data/hs_7549_1283x3_980x3_305x1_31x10_27x2_1x10_5x0_4x3_db_2025_12_21_seed-1_sample-0_model.cif"
+            },
+            "children": [
+              {
+                "kind": "parse",
+                "params": {
+                  "format": "mmcif"
+                },
+                "children": [
+                  {
+                    "kind": "structure",
+                    "params": {
+                      "type": "model"
+                    },
+                    "children": [
+                      {
+                        "kind": "component",
+                        "params": {
+                          "selector": "polymer"
+                        },
+                        "children": [
+                          {
+                            "kind": "representation",
+                            "params": {
+                              "type": "cartoon"
+                            },
+                            "children": [
+                              {
+                                "kind": "color_from_source",
+                                "params": {
+                                  "schema": "atom",
+                                  "category_name": "atom_site",
+                                  "field_name": "B_iso_or_equiv",
+                                  "palette": {
+                                    "kind": "discrete",
+                                    "mode": "absolute",
+                                    "colors": [
+                                      [
+                                        "#FF8000",
+                                        null,
+                                        50.0
+                                      ],
+                                      [
+                                        "#FFFF00",
+                                        50.0,
+                                        70.0
+                                      ],
+                                      [
+                                        "#87CEFA",
+                                        70.0,
+                                        90.0
+                                      ],
+                                      [
+                                        "#00008B",
+                                        90.0,
+                                        null
+                                      ]
+                                    ]
+                                  }
+                                }
+                              }
+                            ],
+                            "ref": "cartoon"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "component",
+                        "params": {
+                          "selector": [
+                            {
+                              "auth_asym_id": "J"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "title": "pLDDT view (AF DB bins)",
+        "description": "Colored by predicted confidence (B-factor) using the official AlphaFold DB discrete scheme: dark blue >90 (very high), light blue 70-90 (confident), yellow 50-70 (low), orange <50 (very low).",
+        "key": "c2d9142d-101e-4a5b-bd6a-4447885c56bf",
         "linger_duration_ms": 1000
       }
     }

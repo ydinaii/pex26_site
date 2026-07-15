@@ -197,6 +197,24 @@ def build_scene(mode):
                 "overflow_color": "auto",   # clip values > 100 to the highest checkpoint color
             },
         )
+    elif mode == "plddt_bins":
+        # Official AlphaFold DB / EBI discrete 4-bin scheme (hard thresholds, not a gradient):
+        # >90 dark blue (very high), 70-90 light blue (confident), 50-70 yellow (low), <50 orange (very low)
+        cartoon_repr.color_from_source(
+            schema="atom",
+            category_name="atom_site",
+            field_name="B_iso_or_equiv",
+            palette={
+                "kind": "discrete",
+                "mode": "absolute",
+                "colors": [
+                    ["#FF8000", None, 50.0],
+                    ["#FFFF00", 50.0, 70.0],
+                    ["#87CEFA", 70.0, 90.0],
+                    ["#00008B", 90.0, None],
+                ],
+            },
+        )
     else:
         cartoon_repr.color(color=COLOR_GRAY)
 
@@ -250,9 +268,12 @@ def build_scene(mode):
 
     titles = {
         "cartoon": ("Cartoon view", "Domain-colored cartoon (PEX1/PEX6 domains, Walker motifs, ISS, PEX26, PEX5)."),
-        "surface": ("Surface view", "Same as cartoon view, with PEX5 shown as a semi-transparent surface."),
-        "plddt": ("pLDDT view", "Colored by predicted confidence (B-factor), matching "
-                                 "`spectrum b, tv_orange_yellow_marine_blue, minimum=20, maximum=100`."),
+        "surface": ("Surface view", "Same as cartoon view, with PEX5 (if applicable) shown as a semi-transparent surface."),
+        "plddt": ("pLDDT view", "Colored by predicted confidence (B-factor), continuous gradient matching "
+                                 "`spectrum b, tv_orange tv_yellow marine blue, minimum=20, maximum=100`."),
+        "plddt_bins": ("pLDDT view (AF DB bins)", "Colored by predicted confidence (B-factor) using the official "
+                                                    "AlphaFold DB discrete scheme: dark blue >90 (very high), "
+                                                    "light blue 70-90 (confident), yellow 50-70 (low), orange <50 (very low)."),
     }
     title, description = titles[mode]
     return builder.get_snapshot(title=title, description=description)
@@ -261,12 +282,13 @@ def build_scene(mode):
 snapshot_cartoon = build_scene("cartoon")
 snapshot_surface = build_scene("surface")
 snapshot_plddt = build_scene("plddt")
+snapshot_plddt_bins = build_scene("plddt_bins")
 
 # ---------------------------------------------------------------------------
 # Combine into a navigable multi-snapshot state
 # ---------------------------------------------------------------------------
 states = mvs.States(
-    snapshots=[snapshot_cartoon, snapshot_surface, snapshot_plddt],
+    snapshots=[snapshot_cartoon, snapshot_surface, snapshot_plddt, snapshot_plddt_bins],
     metadata=mvs.GlobalMetadata(description="PEX1-PEX6-PEX26-PEX5 complex — scene navigation"),
 )
 

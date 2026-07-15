@@ -44,16 +44,23 @@
   {
     "objectID": "structure.html",
     "href": "structure.html",
-    "title": "PEX1/PEX6/PEX26 Complex Structure + Membrane",
+    "title": "PEX1/PEX6/PEX26 Complex Structure",
     "section": "",
     "text": "The viewer below shows an AlphaFold 3 model of the PEX1/PEX6/PEX26 complex and part of the peroxisome membrane as prepared with CHARMM-GUI. Use your mouse to rotate, zoom, and explore the structure.\nFor full controls, open in Mol* viewer."
   },
   {
-    "objectID": "structure.html#interactive-3d-viewer",
-    "href": "structure.html#interactive-3d-viewer",
-    "title": "PEX1/PEX6/PEX26 Complex Structure + Membrane",
+    "objectID": "structure.html#interactive-3d-viewer-of-the-pex1pex6pex26-complex-structure-membrane",
+    "href": "structure.html#interactive-3d-viewer-of-the-pex1pex6pex26-complex-structure-membrane",
+    "title": "PEX1/PEX6/PEX26 Complex Structure",
     "section": "",
     "text": "The viewer below shows an AlphaFold 3 model of the PEX1/PEX6/PEX26 complex and part of the peroxisome membrane as prepared with CHARMM-GUI. Use your mouse to rotate, zoom, and explore the structure.\nFor full controls, open in Mol* viewer."
+  },
+  {
+    "objectID": "structure.html#interactive-3d-viewer-of-the-domain-colored-pex1pex6pex26-complex",
+    "href": "structure.html#interactive-3d-viewer-of-the-domain-colored-pex1pex6pex26-complex",
+    "title": "PEX1/PEX6/PEX26 Complex Structure",
+    "section": "Interactive 3D Viewer of the Domain-Colored PEX1/PEX6/PEX26 Complex",
+    "text": "Interactive 3D Viewer of the Domain-Colored PEX1/PEX6/PEX26 Complex\nThe viewer below shows the domain-colored PEX1/PEX6/PEX26 complex (AlphaFold 3 model), with three navigable scenes: a domain/motif-colored cartoon (PEX1 and PEX6 nucleotide-binding domains, Walker A/B motifs, ISS, PEX26), and a per-residue confidence (pLDDT) view.\nUse the scene selector at the top of the viewer to switch between them, and your mouse to rotate, zoom, and explore the structure.\nFor full controls, open in Mol* viewer."
   },
   {
     "objectID": "index.html",
