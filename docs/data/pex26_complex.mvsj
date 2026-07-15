@@ -2,7 +2,7 @@
   "kind": "multiple",
   "metadata": {
     "description": "PEX1-PEX6-PEX26-PEX5 complex — scene navigation",
-    "timestamp": "2026-07-15T19:23:04.332828+00:00",
+    "timestamp": "2026-07-15T20:25:40.852167+00:00",
     "version": "1.8"
   },
   "snapshots": [
@@ -903,41 +903,45 @@
                                   },
                                   "color": "#FFFF00"
                                 }
-                              }
-                            ],
-                            "ref": "cartoon"
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "component",
-                        "params": {
-                          "selector": [
-                            {
-                              "auth_asym_id": "G"
-                            },
-                            {
-                              "auth_asym_id": "H"
-                            },
-                            {
-                              "auth_asym_id": "I"
-                            }
-                          ]
-                        },
-                        "children": [
-                          {
-                            "kind": "representation",
-                            "params": {
-                              "type": "cartoon"
-                            },
-                            "children": [
+                              },
                               {
                                 "kind": "color",
                                 "params": {
+                                  "selector": {
+                                    "auth_asym_id": "G"
+                                  },
                                   "color": "#339933"
                                 }
+                              },
+                              {
+                                "kind": "color",
+                                "params": {
+                                  "selector": {
+                                    "auth_asym_id": "H"
+                                  },
+                                  "color": "#339933"
+                                }
+                              },
+                              {
+                                "kind": "color",
+                                "params": {
+                                  "selector": {
+                                    "auth_asym_id": "I"
+                                  },
+                                  "color": "#339933"
+                                }
+                              },
+                              {
+                                "kind": "color",
+                                "params": {
+                                  "selector": {
+                                    "auth_asym_id": "J"
+                                  },
+                                  "color": "#FFFF00"
+                                }
                               }
-                            ]
+                            ],
+                            "ref": "cartoon"
                           }
                         ]
                       },
@@ -1248,24 +1252,7 @@
                               "auth_asym_id": "J"
                             }
                           ]
-                        },
-                        "children": [
-                          {
-                            "kind": "representation",
-                            "params": {
-                              "type": "cartoon"
-                            },
-                            "children": [
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "#FFFF00"
-                                }
-                              }
-                            ],
-                            "ref": "pex5_cartoon"
-                          }
-                        ]
+                        }
                       }
                     ]
                   }
@@ -1278,7 +1265,7 @@
       "metadata": {
         "title": "Cartoon view",
         "description": "Domain-colored cartoon (PEX1/PEX6 domains, Walker motifs, ISS, PEX26, PEX5).",
-        "key": "a554a48c-96e5-46f5-9a91-adc8268df9bd",
+        "key": "b5ef3fb3-ba65-4253-ac63-dbacbf6e6e40",
         "linger_duration_ms": 1000
       }
     },
@@ -2179,41 +2166,45 @@
                                   },
                                   "color": "#FFFF00"
                                 }
-                              }
-                            ],
-                            "ref": "cartoon"
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "component",
-                        "params": {
-                          "selector": [
-                            {
-                              "auth_asym_id": "G"
-                            },
-                            {
-                              "auth_asym_id": "H"
-                            },
-                            {
-                              "auth_asym_id": "I"
-                            }
-                          ]
-                        },
-                        "children": [
-                          {
-                            "kind": "representation",
-                            "params": {
-                              "type": "cartoon"
-                            },
-                            "children": [
+                              },
                               {
                                 "kind": "color",
                                 "params": {
+                                  "selector": {
+                                    "auth_asym_id": "G"
+                                  },
                                   "color": "#339933"
                                 }
+                              },
+                              {
+                                "kind": "color",
+                                "params": {
+                                  "selector": {
+                                    "auth_asym_id": "H"
+                                  },
+                                  "color": "#339933"
+                                }
+                              },
+                              {
+                                "kind": "color",
+                                "params": {
+                                  "selector": {
+                                    "auth_asym_id": "I"
+                                  },
+                                  "color": "#339933"
+                                }
+                              },
+                              {
+                                "kind": "color",
+                                "params": {
+                                  "selector": {
+                                    "auth_asym_id": "J"
+                                  },
+                                  "color": "#FFFF00"
+                                }
                               }
-                            ]
+                            ],
+                            "ref": "cartoon"
                           }
                         ]
                       },
@@ -2529,21 +2520,6 @@
                           {
                             "kind": "representation",
                             "params": {
-                              "type": "cartoon"
-                            },
-                            "children": [
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "#FFFF00"
-                                }
-                              }
-                            ],
-                            "ref": "pex5_cartoon"
-                          },
-                          {
-                            "kind": "representation",
-                            "params": {
                               "type": "surface",
                               "surface_type": "molecular"
                             },
@@ -2576,7 +2552,7 @@
       "metadata": {
         "title": "Surface view",
         "description": "Same as cartoon view, with PEX5 shown as a semi-transparent surface.",
-        "key": "60ebae46-1204-4ede-94f2-8927d62eb297",
+        "key": "d30ca438-cc75-4ee1-93de-94131baa19c1",
         "linger_duration_ms": 1000
       }
     },
@@ -2628,7 +2604,8 @@
                                       "#5C88DA",
                                       "#1E3A8A"
                                     ],
-                                    "domain": [
+                                    "mode": "normalized",
+                                    "value_domain": [
                                       20,
                                       100
                                     ]
@@ -2648,24 +2625,7 @@
                               "auth_asym_id": "J"
                             }
                           ]
-                        },
-                        "children": [
-                          {
-                            "kind": "representation",
-                            "params": {
-                              "type": "cartoon"
-                            },
-                            "children": [
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "#FFFF00"
-                                }
-                              }
-                            ],
-                            "ref": "pex5_cartoon"
-                          }
-                        ]
+                        }
                       }
                     ]
                   }
@@ -2678,7 +2638,7 @@
       "metadata": {
         "title": "pLDDT view",
         "description": "Colored by predicted confidence (B-factor), matching `spectrum b, tv_orange_yellow_marine_blue, minimum=20, maximum=100`.",
-        "key": "9a1a00dd-45f5-45a3-96d1-69273f0092db",
+        "key": "0927c28e-7fb4-4fff-9fd0-4fd58782e8ce",
         "linger_duration_ms": 1000
       }
     }

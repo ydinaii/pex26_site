@@ -191,7 +191,8 @@ def build_scene(mode):
             palette={
                 "kind": "continuous",
                 "colors": ["#E68C3A", "#FFFF00", "#5C88DA", "#1E3A8A"],  # orange -> yellow -> marine -> blue
-                "domain": [20, 100],
+                "mode": "normalized",
+                "value_domain": [20, 100],
             },
         )
     else:
@@ -209,8 +210,8 @@ def build_scene(mode):
             for sel in chain_range_selector(chains, resi_range, offset):
                 cartoon_repr.color(selector=sel, color=color)
 
-        pex26_component = structure.component(selector=chain_selector(PEX26_CHAINS))
-        pex26_component.representation(type="cartoon").color(color=COLOR_FOREST)
+        for sel in chain_selector(PEX26_CHAINS):
+            cartoon_repr.color(selector=sel, color=COLOR_FOREST)
 
         phospho_component = structure.component(selector=resn_selector(PHOSPHO_RESN))
         phospho_component.representation(type="ball_and_stick").color(color=COLOR_ORANGE)
@@ -227,9 +228,10 @@ def build_scene(mode):
             sticks = structure.component(selector=chain_range_selector(chains, resi_range, offset))
             sticks.representation(type="ball_and_stick").color(color=color)
 
+        for sel in chain_selector(PEX5_CHAINS):
+            cartoon_repr.color(selector=sel, color=COLOR_YELLOW)
+
     pex5_component = structure.component(selector=chain_selector(PEX5_CHAINS))
-    pex5_cartoon = pex5_component.representation(type="cartoon", ref="pex5_cartoon")
-    pex5_cartoon.color(color=COLOR_YELLOW)
 
     if mode == "surface":
         pex5_surface = pex5_component.representation(type="surface", ref="pex5_surface")
