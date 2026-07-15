@@ -226,7 +226,15 @@ def build_scene(mode):
             chains = PEX1_CHAINS if protein == "PEX1" else PEX6_CHAINS
             resi_range = PEX1_RANGES.get(motif) or PEX6_RANGES.get(motif)
             offset = FIRST_RESI[protein] - 1
-            color = COLOR_WHITE if "R_fingers" in motif else COLOR_ORANGE if "Pore_loop" in motif else COLOR_DARK_GREEN
+            if "R_fingers" in motif:
+                color = COLOR_WHITE
+            elif "Pore_loop" in motif:
+                color = COLOR_ORANGE
+            else:
+                # DE motif: PyMOL never gives it its own `color` command -- it just
+                # inherits whatever the D2 domain color already was. Match that here
+                # instead of a hardcoded color.
+                color = DOMAIN_COLORS[f"{protein}_D2"]
             sticks = structure.component(selector=chain_range_selector(chains, resi_range, offset))
             sticks.representation(type="ball_and_stick").color(color=color)
 
