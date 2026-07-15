@@ -162,93 +162,100 @@ def resn_selector(resn_list):
     return [mvs.ComponentExpression(label_comp_id=r) for r in resn_list]
 
 
-def build_scene(mode):
-    """
-    Build a fully independent MVS tree for one scene.
-    mode: "cartoon" | "surface" | "plddt"
+# ---------------------------------------------------------------------------
+# Build the base structure + cartoon representation with domain/motif colors
+# (this mirrors everything up to `scene cartoon_view, store`)
+# ---------------------------------------------------------------------------
+builder = mvs.create_builder()
+structure = (
+    builder.download(url=STRUCTURE_URL)
+    .parse(format=STRUCTURE_FORMAT)
+    .model_structure()
+)
 
-    NOTE: molviewspec's builder.get_snapshot() does NOT deep-copy the state tree
-    (as of molviewspec 1.8.1 -- confirmed in source, has a `# TODO create deep
-    copy of node` comment). Reusing one builder across snapshots means later
-    mutations silently leak into earlier snapshots. To avoid that, each scene
-    gets its own from-scratch builder here.
-    """
-    builder = mvs.create_builder()
-    structure = (
-        builder.download(url=STRUCTURE_URL)
-        .parse(format=STRUCTURE_FORMAT)
-        .model_structure()
-    )
+# Whole-polymer cartoon, base gray, with domain/motif color overrides layered on top
+polymer = structure.component(selector="polymer")
+cartoon_repr = polymer.representation(type="cartoon", ref="cartoon")
+cartoon_repr.color(color=COLOR_GRAY)
 
-    polymer = structure.component(selector="polymer")
-    cartoon_repr = polymer.representation(type="cartoon", ref="cartoon")
+all_ranges = {
+    **{f"PEX1::{k}": (PEX1_CHAINS, v, FIRST_RESI["PEX1"] - 1) for k, v in PEX1_RANGES.items()},
+    **{f"PEX6::{k}": (PEX6_CHAINS, v, FIRST_RESI["PEX6"] - 1) for k, v in PEX6_RANGES.items()},
+}
 
-    if mode == "plddt":
-        cartoon_repr.color_from_source(
-            schema="atom",
-            category_name="atom_site",
-            field_name="B_iso_or_equiv",
-            palette={
-                "kind": "continuous",
-                "colors": ["#E68C3A", "#FFFF00", "#5C88DA", "#1E3A8A"],  # orange -> yellow -> marine -> blue
-                "domain": [20, 100],
-            },
-        )
-    else:
-        cartoon_repr.color(color=COLOR_GRAY)
+for key, (chains, resi_range, offset) in all_ranges.items():
+    domain_name = key.split("::")[1]
+    color = DOMAIN_COLORS.get(domain_name) or MOTIF_COLORS.get(domain_name)
+    if color is None:
+        continue  # e.g. PEX1_D1_Sensor_1 not colored distinctly beyond Sensor_1 shared color
+    for sel in chain_range_selector(chains, resi_range, offset):
+        cartoon_repr.color(selector=sel, color=color)
 
-        all_ranges = {
-            **{f"PEX1::{k}": (PEX1_CHAINS, v, FIRST_RESI["PEX1"] - 1) for k, v in PEX1_RANGES.items()},
-            **{f"PEX6::{k}": (PEX6_CHAINS, v, FIRST_RESI["PEX6"] - 1) for k, v in PEX6_RANGES.items()},
-        }
-        for key, (chains, resi_range, offset) in all_ranges.items():
-            domain_name = key.split("::")[1]
-            color = DOMAIN_COLORS.get(domain_name) or MOTIF_COLORS.get(domain_name)
-            if color is None:
-                continue
-            for sel in chain_range_selector(chains, resi_range, offset):
-                cartoon_repr.color(selector=sel, color=color)
+# PEX26 (forest) and PEX5 (yellow) cartoon color
+pex26_component = structure.component(selector=chain_selector(PEX26_CHAINS))
+pex26_component.representation(type="cartoon").color(color=COLOR_FOREST)
 
-        pex26_component = structure.component(selector=chain_selector(PEX26_CHAINS))
-        pex26_component.representation(type="cartoon").color(color=COLOR_FOREST)
+pex5_component = structure.component(selector=chain_selector(PEX5_CHAINS))
+pex5_cartoon = pex5_component.representation(type="cartoon", ref="pex5_cartoon")
+pex5_cartoon.color(color=COLOR_YELLOW)
 
-        phospho_component = structure.component(selector=resn_selector(PHOSPHO_RESN))
-        phospho_component.representation(type="ball_and_stick").color(color=COLOR_ORANGE)
+# Phospho residues (SEP/TPO/PTR) -> orange, shown as sticks
+phospho_component = structure.component(selector=resn_selector(PHOSPHO_RESN))
+phospho_component.representation(type="ball_and_stick").color(color=COLOR_ORANGE)
 
-        ligand_component = structure.component(selector=resn_selector(LIGAND_RESN))
-        ligand_component.representation(type="ball_and_stick")
+# Ligands / ions -> ball-and-stick (default element coloring approximates util.cbag/cbao/cbaw)
+ligand_component = structure.component(selector=resn_selector(LIGAND_RESN))
+ligand_component.representation(type="ball_and_stick")
 
-        for motif in STICK_MOTIFS:
-            protein = "PEX1" if motif.startswith("PEX1") else "PEX6"
-            chains = PEX1_CHAINS if protein == "PEX1" else PEX6_CHAINS
-            resi_range = PEX1_RANGES.get(motif) or PEX6_RANGES.get(motif)
-            offset = FIRST_RESI[protein] - 1
-            color = COLOR_WHITE if "R_fingers" in motif else COLOR_ORANGE if "Pore_loop" in motif else COLOR_DARK_GREEN
-            sticks = structure.component(selector=chain_range_selector(chains, resi_range, offset))
-            sticks.representation(type="ball_and_stick").color(color=color)
+# D2 motif side chains shown as sticks, colored per motif (DE/pore-loop/R-fingers)
+for motif in STICK_MOTIFS:
+    protein = "PEX1" if motif.startswith("PEX1") else "PEX6"
+    chains = PEX1_CHAINS if protein == "PEX1" else PEX6_CHAINS
+    resi_range = PEX1_RANGES.get(motif) or PEX6_RANGES.get(motif)
+    offset = FIRST_RESI[protein] - 1
+    color = COLOR_WHITE if "R_fingers" in motif else COLOR_ORANGE if "Pore_loop" in motif else COLOR_DARK_GREEN
+    sticks = structure.component(selector=chain_range_selector(chains, resi_range, offset))
+    sticks.representation(type="ball_and_stick").color(color=color)
 
-    pex5_component = structure.component(selector=chain_selector(PEX5_CHAINS))
-    pex5_cartoon = pex5_component.representation(type="cartoon", ref="pex5_cartoon")
-    pex5_cartoon.color(color=COLOR_YELLOW)
+# --- snapshot 1: cartoon_view ---
+snapshot_cartoon = builder.get_snapshot(
+    title="Cartoon view",
+    description="Domain-colored cartoon (PEX1/PEX6 domains, Walker motifs, ISS, PEX26, PEX5).",
+)
 
-    if mode == "surface":
-        pex5_surface = pex5_component.representation(type="surface", ref="pex5_surface")
-        pex5_surface.color(color=COLOR_YELLOW)
-        pex5_surface.opacity(opacity=0.7)  # PyMOL transparency=0.3 -> opacity=0.7
+# ---------------------------------------------------------------------------
+# scene surface_view: add transparent PEX5 surface
+# ---------------------------------------------------------------------------
+pex5_surface = pex5_component.representation(type="surface", ref="pex5_surface")
+pex5_surface.color(color=COLOR_YELLOW)
+pex5_surface.opacity(opacity=0.7)  # PyMOL transparency=0.3 -> opacity=0.7
 
-    titles = {
-        "cartoon": ("Cartoon view", "Domain-colored cartoon (PEX1/PEX6 domains, Walker motifs, ISS, PEX26, PEX5)."),
-        "surface": ("Surface view", "Same as cartoon view, with PEX5 shown as a semi-transparent surface."),
-        "plddt": ("pLDDT view", "Colored by predicted confidence (B-factor), matching "
-                                 "`spectrum b, tv_orange_yellow_marine_blue, minimum=20, maximum=100`."),
-    }
-    title, description = titles[mode]
-    return builder.get_snapshot(title=title, description=description)
+snapshot_surface = builder.get_snapshot(
+    title="Surface view",
+    description="Same as cartoon view, with PEX5 shown as a semi-transparent surface.",
+)
 
+# ---------------------------------------------------------------------------
+# scene pLDDT_view: hide PEX5 surface, recolor whole polymer by B-factor (pLDDT)
+# ---------------------------------------------------------------------------
+pex5_surface.color(color=COLOR_YELLOW).opacity(opacity=0.0)  # effectively hidden
 
-snapshot_cartoon = build_scene("cartoon")
-snapshot_surface = build_scene("surface")
-snapshot_plddt = build_scene("plddt")
+cartoon_repr.color_from_source(
+    schema="atom",
+    category_name="atom_site",
+    field_name="B_iso_or_equiv",
+    palette={
+        "kind": "continuous",
+        "colors": ["#E68C3A", "#FFFF00", "#5C88DA", "#1E3A8A"],  # orange -> yellow -> marine -> blue
+        "domain": [20, 100],
+    },
+)
+
+snapshot_plddt = builder.get_snapshot(
+    title="pLDDT view",
+    description="Colored by predicted confidence (B-factor), matching "
+                 "`spectrum b, tv_orange_yellow_marine_blue, minimum=20, maximum=100`.",
+)
 
 # ---------------------------------------------------------------------------
 # Combine into a navigable multi-snapshot state

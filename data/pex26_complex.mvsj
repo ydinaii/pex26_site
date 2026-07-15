@@ -2,7 +2,7 @@
   "kind": "multiple",
   "metadata": {
     "description": "PEX1-PEX6-PEX26-PEX5 complex — scene navigation",
-    "timestamp": "2026-07-15T18:54:30.713202+00:00",
+    "timestamp": "2026-07-15T19:23:04.332828+00:00",
     "version": "1.8"
   },
   "snapshots": [
@@ -903,27 +903,6 @@
                                   },
                                   "color": "#FFFF00"
                                 }
-                              },
-                              {
-                                "kind": "color_from_source",
-                                "params": {
-                                  "schema": "atom",
-                                  "category_name": "atom_site",
-                                  "field_name": "B_iso_or_equiv",
-                                  "palette": {
-                                    "kind": "continuous",
-                                    "colors": [
-                                      "#E68C3A",
-                                      "#FFFF00",
-                                      "#5C88DA",
-                                      "#1E3A8A"
-                                    ],
-                                    "domain": [
-                                      20,
-                                      100
-                                    ]
-                                  }
-                                }
                               }
                             ],
                             "ref": "cartoon"
@@ -959,67 +938,6 @@
                                 }
                               }
                             ]
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "component",
-                        "params": {
-                          "selector": [
-                            {
-                              "auth_asym_id": "J"
-                            }
-                          ]
-                        },
-                        "children": [
-                          {
-                            "kind": "representation",
-                            "params": {
-                              "type": "cartoon"
-                            },
-                            "children": [
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "#FFFF00"
-                                }
-                              }
-                            ],
-                            "ref": "pex5_cartoon"
-                          },
-                          {
-                            "kind": "representation",
-                            "params": {
-                              "type": "surface",
-                              "surface_type": "molecular"
-                            },
-                            "children": [
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "#FFFF00"
-                                }
-                              },
-                              {
-                                "kind": "opacity",
-                                "params": {
-                                  "opacity": 0.7
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "#FFFF00"
-                                }
-                              },
-                              {
-                                "kind": "opacity",
-                                "params": {
-                                  "opacity": 0.0
-                                }
-                              }
-                            ],
-                            "ref": "pex5_surface"
                           }
                         ]
                       },
@@ -1319,6 +1237,33 @@
                                 }
                               }
                             ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "component",
+                        "params": {
+                          "selector": [
+                            {
+                              "auth_asym_id": "J"
+                            }
+                          ]
+                        },
+                        "children": [
+                          {
+                            "kind": "representation",
+                            "params": {
+                              "type": "cartoon"
+                            },
+                            "children": [
+                              {
+                                "kind": "color",
+                                "params": {
+                                  "color": "#FFFF00"
+                                }
+                              }
+                            ],
+                            "ref": "pex5_cartoon"
                           }
                         ]
                       }
@@ -1333,7 +1278,7 @@
       "metadata": {
         "title": "Cartoon view",
         "description": "Domain-colored cartoon (PEX1/PEX6 domains, Walker motifs, ISS, PEX26, PEX5).",
-        "key": "6c1cee53-ae20-45cb-b51e-4341d36d2ada",
+        "key": "a554a48c-96e5-46f5-9a91-adc8268df9bd",
         "linger_duration_ms": 1000
       }
     },
@@ -2234,27 +2179,6 @@
                                   },
                                   "color": "#FFFF00"
                                 }
-                              },
-                              {
-                                "kind": "color_from_source",
-                                "params": {
-                                  "schema": "atom",
-                                  "category_name": "atom_site",
-                                  "field_name": "B_iso_or_equiv",
-                                  "palette": {
-                                    "kind": "continuous",
-                                    "colors": [
-                                      "#E68C3A",
-                                      "#FFFF00",
-                                      "#5C88DA",
-                                      "#1E3A8A"
-                                    ],
-                                    "domain": [
-                                      20,
-                                      100
-                                    ]
-                                  }
-                                }
                               }
                             ],
                             "ref": "cartoon"
@@ -2290,67 +2214,6 @@
                                 }
                               }
                             ]
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "component",
-                        "params": {
-                          "selector": [
-                            {
-                              "auth_asym_id": "J"
-                            }
-                          ]
-                        },
-                        "children": [
-                          {
-                            "kind": "representation",
-                            "params": {
-                              "type": "cartoon"
-                            },
-                            "children": [
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "#FFFF00"
-                                }
-                              }
-                            ],
-                            "ref": "pex5_cartoon"
-                          },
-                          {
-                            "kind": "representation",
-                            "params": {
-                              "type": "surface",
-                              "surface_type": "molecular"
-                            },
-                            "children": [
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "#FFFF00"
-                                }
-                              },
-                              {
-                                "kind": "opacity",
-                                "params": {
-                                  "opacity": 0.7
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "#FFFF00"
-                                }
-                              },
-                              {
-                                "kind": "opacity",
-                                "params": {
-                                  "opacity": 0.0
-                                }
-                              }
-                            ],
-                            "ref": "pex5_surface"
                           }
                         ]
                       },
@@ -2650,6 +2513,55 @@
                                 }
                               }
                             ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "component",
+                        "params": {
+                          "selector": [
+                            {
+                              "auth_asym_id": "J"
+                            }
+                          ]
+                        },
+                        "children": [
+                          {
+                            "kind": "representation",
+                            "params": {
+                              "type": "cartoon"
+                            },
+                            "children": [
+                              {
+                                "kind": "color",
+                                "params": {
+                                  "color": "#FFFF00"
+                                }
+                              }
+                            ],
+                            "ref": "pex5_cartoon"
+                          },
+                          {
+                            "kind": "representation",
+                            "params": {
+                              "type": "surface",
+                              "surface_type": "molecular"
+                            },
+                            "children": [
+                              {
+                                "kind": "color",
+                                "params": {
+                                  "color": "#FFFF00"
+                                }
+                              },
+                              {
+                                "kind": "opacity",
+                                "params": {
+                                  "opacity": 0.7
+                                }
+                              }
+                            ],
+                            "ref": "pex5_surface"
                           }
                         ]
                       }
@@ -2664,7 +2576,7 @@
       "metadata": {
         "title": "Surface view",
         "description": "Same as cartoon view, with PEX5 shown as a semi-transparent surface.",
-        "key": "e915d84c-7f88-4333-a58f-1d486c48e12d",
+        "key": "60ebae46-1204-4ede-94f2-8927d62eb297",
         "linger_duration_ms": 1000
       }
     },
@@ -2703,870 +2615,6 @@
                             },
                             "children": [
                               {
-                                "kind": "color",
-                                "params": {
-                                  "color": "#BEBEBE"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "A",
-                                    "beg_auth_seq_id": 1,
-                                    "end_auth_seq_id": 180
-                                  },
-                                  "color": "#989898"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "B",
-                                    "beg_auth_seq_id": 1,
-                                    "end_auth_seq_id": 180
-                                  },
-                                  "color": "#989898"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "C",
-                                    "beg_auth_seq_id": 1,
-                                    "end_auth_seq_id": 180
-                                  },
-                                  "color": "#989898"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "A",
-                                    "beg_auth_seq_id": 266,
-                                    "end_auth_seq_id": 532
-                                  },
-                                  "color": "#DBC5AE"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "B",
-                                    "beg_auth_seq_id": 266,
-                                    "end_auth_seq_id": 532
-                                  },
-                                  "color": "#DBC5AE"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "C",
-                                    "beg_auth_seq_id": 266,
-                                    "end_auth_seq_id": 532
-                                  },
-                                  "color": "#DBC5AE"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "A",
-                                    "beg_auth_seq_id": 560,
-                                    "end_auth_seq_id": 819
-                                  },
-                                  "color": "#FEBDAF"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "B",
-                                    "beg_auth_seq_id": 560,
-                                    "end_auth_seq_id": 819
-                                  },
-                                  "color": "#FEBDAF"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "C",
-                                    "beg_auth_seq_id": 560,
-                                    "end_auth_seq_id": 819
-                                  },
-                                  "color": "#FEBDAF"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "A",
-                                    "beg_auth_seq_id": 846,
-                                    "end_auth_seq_id": 1084
-                                  },
-                                  "color": "#DB798A"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "B",
-                                    "beg_auth_seq_id": 846,
-                                    "end_auth_seq_id": 1084
-                                  },
-                                  "color": "#DB798A"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "C",
-                                    "beg_auth_seq_id": 846,
-                                    "end_auth_seq_id": 1084
-                                  },
-                                  "color": "#DB798A"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "A",
-                                    "beg_auth_seq_id": 599,
-                                    "end_auth_seq_id": 606
-                                  },
-                                  "color": "#660066"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "B",
-                                    "beg_auth_seq_id": 599,
-                                    "end_auth_seq_id": 606
-                                  },
-                                  "color": "#660066"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "C",
-                                    "beg_auth_seq_id": 599,
-                                    "end_auth_seq_id": 606
-                                  },
-                                  "color": "#660066"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "A",
-                                    "beg_auth_seq_id": 629,
-                                    "end_auth_seq_id": 632
-                                  },
-                                  "color": "#E6B450"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "B",
-                                    "beg_auth_seq_id": 629,
-                                    "end_auth_seq_id": 632
-                                  },
-                                  "color": "#E6B450"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "C",
-                                    "beg_auth_seq_id": 629,
-                                    "end_auth_seq_id": 632
-                                  },
-                                  "color": "#E6B450"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "A",
-                                    "beg_auth_seq_id": 658,
-                                    "end_auth_seq_id": 663
-                                  },
-                                  "color": "#008000"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "B",
-                                    "beg_auth_seq_id": 658,
-                                    "end_auth_seq_id": 663
-                                  },
-                                  "color": "#008000"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "C",
-                                    "beg_auth_seq_id": 658,
-                                    "end_auth_seq_id": 663
-                                  },
-                                  "color": "#008000"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "A",
-                                    "beg_auth_seq_id": 712,
-                                    "end_auth_seq_id": 712
-                                  },
-                                  "color": "#FFFF00"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "B",
-                                    "beg_auth_seq_id": 712,
-                                    "end_auth_seq_id": 712
-                                  },
-                                  "color": "#FFFF00"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "C",
-                                    "beg_auth_seq_id": 712,
-                                    "end_auth_seq_id": 712
-                                  },
-                                  "color": "#FFFF00"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "A",
-                                    "beg_auth_seq_id": 881,
-                                    "end_auth_seq_id": 888
-                                  },
-                                  "color": "#660066"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "B",
-                                    "beg_auth_seq_id": 881,
-                                    "end_auth_seq_id": 888
-                                  },
-                                  "color": "#660066"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "C",
-                                    "beg_auth_seq_id": 881,
-                                    "end_auth_seq_id": 888
-                                  },
-                                  "color": "#660066"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "A",
-                                    "beg_auth_seq_id": 907,
-                                    "end_auth_seq_id": 910
-                                  },
-                                  "color": "#E6B450"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "B",
-                                    "beg_auth_seq_id": 907,
-                                    "end_auth_seq_id": 910
-                                  },
-                                  "color": "#E6B450"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "C",
-                                    "beg_auth_seq_id": 907,
-                                    "end_auth_seq_id": 910
-                                  },
-                                  "color": "#E6B450"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "A",
-                                    "beg_auth_seq_id": 936,
-                                    "end_auth_seq_id": 941
-                                  },
-                                  "color": "#008000"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "B",
-                                    "beg_auth_seq_id": 936,
-                                    "end_auth_seq_id": 941
-                                  },
-                                  "color": "#008000"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "C",
-                                    "beg_auth_seq_id": 936,
-                                    "end_auth_seq_id": 941
-                                  },
-                                  "color": "#008000"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "A",
-                                    "beg_auth_seq_id": 969,
-                                    "end_auth_seq_id": 971
-                                  },
-                                  "color": "#00FFFF"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "B",
-                                    "beg_auth_seq_id": 969,
-                                    "end_auth_seq_id": 971
-                                  },
-                                  "color": "#00FFFF"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "C",
-                                    "beg_auth_seq_id": 969,
-                                    "end_auth_seq_id": 971
-                                  },
-                                  "color": "#00FFFF"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "A",
-                                    "beg_auth_seq_id": 983,
-                                    "end_auth_seq_id": 983
-                                  },
-                                  "color": "#FFFF00"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "B",
-                                    "beg_auth_seq_id": 983,
-                                    "end_auth_seq_id": 983
-                                  },
-                                  "color": "#FFFF00"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "C",
-                                    "beg_auth_seq_id": 983,
-                                    "end_auth_seq_id": 983
-                                  },
-                                  "color": "#FFFF00"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "D",
-                                    "beg_auth_seq_id": 1,
-                                    "end_auth_seq_id": 184
-                                  },
-                                  "color": "#B0D1BE"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "E",
-                                    "beg_auth_seq_id": 1,
-                                    "end_auth_seq_id": 184
-                                  },
-                                  "color": "#B0D1BE"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "F",
-                                    "beg_auth_seq_id": 1,
-                                    "end_auth_seq_id": 184
-                                  },
-                                  "color": "#B0D1BE"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "D",
-                                    "beg_auth_seq_id": 185,
-                                    "end_auth_seq_id": 426
-                                  },
-                                  "color": "#97DFEB"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "E",
-                                    "beg_auth_seq_id": 185,
-                                    "end_auth_seq_id": 426
-                                  },
-                                  "color": "#97DFEB"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "F",
-                                    "beg_auth_seq_id": 185,
-                                    "end_auth_seq_id": 426
-                                  },
-                                  "color": "#97DFEB"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "D",
-                                    "beg_auth_seq_id": 439,
-                                    "end_auth_seq_id": 694
-                                  },
-                                  "color": "#57A0CD"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "E",
-                                    "beg_auth_seq_id": 439,
-                                    "end_auth_seq_id": 694
-                                  },
-                                  "color": "#57A0CD"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "F",
-                                    "beg_auth_seq_id": 439,
-                                    "end_auth_seq_id": 694
-                                  },
-                                  "color": "#57A0CD"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "D",
-                                    "beg_auth_seq_id": 711,
-                                    "end_auth_seq_id": 957
-                                  },
-                                  "color": "#8290F3"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "E",
-                                    "beg_auth_seq_id": 711,
-                                    "end_auth_seq_id": 957
-                                  },
-                                  "color": "#8290F3"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "F",
-                                    "beg_auth_seq_id": 711,
-                                    "end_auth_seq_id": 957
-                                  },
-                                  "color": "#8290F3"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "D",
-                                    "beg_auth_seq_id": 470,
-                                    "end_auth_seq_id": 477
-                                  },
-                                  "color": "#660066"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "E",
-                                    "beg_auth_seq_id": 470,
-                                    "end_auth_seq_id": 477
-                                  },
-                                  "color": "#660066"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "F",
-                                    "beg_auth_seq_id": 470,
-                                    "end_auth_seq_id": 477
-                                  },
-                                  "color": "#660066"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "D",
-                                    "beg_auth_seq_id": 496,
-                                    "end_auth_seq_id": 499
-                                  },
-                                  "color": "#E6B450"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "E",
-                                    "beg_auth_seq_id": 496,
-                                    "end_auth_seq_id": 499
-                                  },
-                                  "color": "#E6B450"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "F",
-                                    "beg_auth_seq_id": 496,
-                                    "end_auth_seq_id": 499
-                                  },
-                                  "color": "#E6B450"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "D",
-                                    "beg_auth_seq_id": 525,
-                                    "end_auth_seq_id": 530
-                                  },
-                                  "color": "#008000"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "E",
-                                    "beg_auth_seq_id": 525,
-                                    "end_auth_seq_id": 530
-                                  },
-                                  "color": "#008000"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "F",
-                                    "beg_auth_seq_id": 525,
-                                    "end_auth_seq_id": 530
-                                  },
-                                  "color": "#008000"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "D",
-                                    "beg_auth_seq_id": 573,
-                                    "end_auth_seq_id": 573
-                                  },
-                                  "color": "#FFFF00"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "E",
-                                    "beg_auth_seq_id": 573,
-                                    "end_auth_seq_id": 573
-                                  },
-                                  "color": "#FFFF00"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "F",
-                                    "beg_auth_seq_id": 573,
-                                    "end_auth_seq_id": 573
-                                  },
-                                  "color": "#FFFF00"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "D",
-                                    "beg_auth_seq_id": 744,
-                                    "end_auth_seq_id": 751
-                                  },
-                                  "color": "#660066"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "E",
-                                    "beg_auth_seq_id": 744,
-                                    "end_auth_seq_id": 751
-                                  },
-                                  "color": "#660066"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "F",
-                                    "beg_auth_seq_id": 744,
-                                    "end_auth_seq_id": 751
-                                  },
-                                  "color": "#660066"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "D",
-                                    "beg_auth_seq_id": 771,
-                                    "end_auth_seq_id": 773
-                                  },
-                                  "color": "#E6B450"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "E",
-                                    "beg_auth_seq_id": 771,
-                                    "end_auth_seq_id": 773
-                                  },
-                                  "color": "#E6B450"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "F",
-                                    "beg_auth_seq_id": 771,
-                                    "end_auth_seq_id": 773
-                                  },
-                                  "color": "#E6B450"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "D",
-                                    "beg_auth_seq_id": 799,
-                                    "end_auth_seq_id": 804
-                                  },
-                                  "color": "#008000"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "E",
-                                    "beg_auth_seq_id": 799,
-                                    "end_auth_seq_id": 804
-                                  },
-                                  "color": "#008000"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "F",
-                                    "beg_auth_seq_id": 799,
-                                    "end_auth_seq_id": 804
-                                  },
-                                  "color": "#008000"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "D",
-                                    "beg_auth_seq_id": 834,
-                                    "end_auth_seq_id": 836
-                                  },
-                                  "color": "#00FFFF"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "E",
-                                    "beg_auth_seq_id": 834,
-                                    "end_auth_seq_id": 836
-                                  },
-                                  "color": "#00FFFF"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "F",
-                                    "beg_auth_seq_id": 834,
-                                    "end_auth_seq_id": 836
-                                  },
-                                  "color": "#00FFFF"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "D",
-                                    "beg_auth_seq_id": 848,
-                                    "end_auth_seq_id": 848
-                                  },
-                                  "color": "#FFFF00"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "E",
-                                    "beg_auth_seq_id": 848,
-                                    "end_auth_seq_id": 848
-                                  },
-                                  "color": "#FFFF00"
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "selector": {
-                                    "auth_asym_id": "F",
-                                    "beg_auth_seq_id": 848,
-                                    "end_auth_seq_id": 848
-                                  },
-                                  "color": "#FFFF00"
-                                }
-                              },
-                              {
                                 "kind": "color_from_source",
                                 "params": {
                                   "schema": "atom",
@@ -3597,38 +2645,6 @@
                         "params": {
                           "selector": [
                             {
-                              "auth_asym_id": "G"
-                            },
-                            {
-                              "auth_asym_id": "H"
-                            },
-                            {
-                              "auth_asym_id": "I"
-                            }
-                          ]
-                        },
-                        "children": [
-                          {
-                            "kind": "representation",
-                            "params": {
-                              "type": "cartoon"
-                            },
-                            "children": [
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "#339933"
-                                }
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "component",
-                        "params": {
-                          "selector": [
-                            {
                               "auth_asym_id": "J"
                             }
                           ]
@@ -3648,339 +2664,6 @@
                               }
                             ],
                             "ref": "pex5_cartoon"
-                          },
-                          {
-                            "kind": "representation",
-                            "params": {
-                              "type": "surface",
-                              "surface_type": "molecular"
-                            },
-                            "children": [
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "#FFFF00"
-                                }
-                              },
-                              {
-                                "kind": "opacity",
-                                "params": {
-                                  "opacity": 0.7
-                                }
-                              },
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "#FFFF00"
-                                }
-                              },
-                              {
-                                "kind": "opacity",
-                                "params": {
-                                  "opacity": 0.0
-                                }
-                              }
-                            ],
-                            "ref": "pex5_surface"
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "component",
-                        "params": {
-                          "selector": [
-                            {
-                              "label_comp_id": "SEP"
-                            },
-                            {
-                              "label_comp_id": "TPO"
-                            },
-                            {
-                              "label_comp_id": "PTR"
-                            }
-                          ]
-                        },
-                        "children": [
-                          {
-                            "kind": "representation",
-                            "params": {
-                              "type": "ball_and_stick"
-                            },
-                            "children": [
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "#FF8000"
-                                }
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "component",
-                        "params": {
-                          "selector": [
-                            {
-                              "label_comp_id": "ATP"
-                            },
-                            {
-                              "label_comp_id": "ADP"
-                            },
-                            {
-                              "label_comp_id": "PO4"
-                            },
-                            {
-                              "label_comp_id": "NA"
-                            },
-                            {
-                              "label_comp_id": "K"
-                            },
-                            {
-                              "label_comp_id": "MG"
-                            },
-                            {
-                              "label_comp_id": "CA"
-                            },
-                            {
-                              "label_comp_id": "CL"
-                            }
-                          ]
-                        },
-                        "children": [
-                          {
-                            "kind": "representation",
-                            "params": {
-                              "type": "ball_and_stick"
-                            }
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "component",
-                        "params": {
-                          "selector": [
-                            {
-                              "auth_asym_id": "A",
-                              "beg_auth_seq_id": 940,
-                              "end_auth_seq_id": 941
-                            },
-                            {
-                              "auth_asym_id": "B",
-                              "beg_auth_seq_id": 940,
-                              "end_auth_seq_id": 941
-                            },
-                            {
-                              "auth_asym_id": "C",
-                              "beg_auth_seq_id": 940,
-                              "end_auth_seq_id": 941
-                            }
-                          ]
-                        },
-                        "children": [
-                          {
-                            "kind": "representation",
-                            "params": {
-                              "type": "ball_and_stick"
-                            },
-                            "children": [
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "#008000"
-                                }
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "component",
-                        "params": {
-                          "selector": [
-                            {
-                              "auth_asym_id": "D",
-                              "beg_auth_seq_id": 803,
-                              "end_auth_seq_id": 804
-                            },
-                            {
-                              "auth_asym_id": "E",
-                              "beg_auth_seq_id": 803,
-                              "end_auth_seq_id": 804
-                            },
-                            {
-                              "auth_asym_id": "F",
-                              "beg_auth_seq_id": 803,
-                              "end_auth_seq_id": 804
-                            }
-                          ]
-                        },
-                        "children": [
-                          {
-                            "kind": "representation",
-                            "params": {
-                              "type": "ball_and_stick"
-                            },
-                            "children": [
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "#008000"
-                                }
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "component",
-                        "params": {
-                          "selector": [
-                            {
-                              "auth_asym_id": "A",
-                              "beg_auth_seq_id": 914,
-                              "end_auth_seq_id": 914
-                            },
-                            {
-                              "auth_asym_id": "B",
-                              "beg_auth_seq_id": 914,
-                              "end_auth_seq_id": 914
-                            },
-                            {
-                              "auth_asym_id": "C",
-                              "beg_auth_seq_id": 914,
-                              "end_auth_seq_id": 914
-                            }
-                          ]
-                        },
-                        "children": [
-                          {
-                            "kind": "representation",
-                            "params": {
-                              "type": "ball_and_stick"
-                            },
-                            "children": [
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "#FF8000"
-                                }
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "component",
-                        "params": {
-                          "selector": [
-                            {
-                              "auth_asym_id": "D",
-                              "beg_auth_seq_id": 777,
-                              "end_auth_seq_id": 777
-                            },
-                            {
-                              "auth_asym_id": "E",
-                              "beg_auth_seq_id": 777,
-                              "end_auth_seq_id": 777
-                            },
-                            {
-                              "auth_asym_id": "F",
-                              "beg_auth_seq_id": 777,
-                              "end_auth_seq_id": 777
-                            }
-                          ]
-                        },
-                        "children": [
-                          {
-                            "kind": "representation",
-                            "params": {
-                              "type": "ball_and_stick"
-                            },
-                            "children": [
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "#FF8000"
-                                }
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "component",
-                        "params": {
-                          "selector": [
-                            {
-                              "auth_asym_id": "A",
-                              "beg_auth_seq_id": 995,
-                              "end_auth_seq_id": 998
-                            },
-                            {
-                              "auth_asym_id": "B",
-                              "beg_auth_seq_id": 995,
-                              "end_auth_seq_id": 998
-                            },
-                            {
-                              "auth_asym_id": "C",
-                              "beg_auth_seq_id": 995,
-                              "end_auth_seq_id": 998
-                            }
-                          ]
-                        },
-                        "children": [
-                          {
-                            "kind": "representation",
-                            "params": {
-                              "type": "ball_and_stick"
-                            },
-                            "children": [
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "#FFFFFF"
-                                }
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "component",
-                        "params": {
-                          "selector": [
-                            {
-                              "auth_asym_id": "D",
-                              "beg_auth_seq_id": 860,
-                              "end_auth_seq_id": 863
-                            },
-                            {
-                              "auth_asym_id": "E",
-                              "beg_auth_seq_id": 860,
-                              "end_auth_seq_id": 863
-                            },
-                            {
-                              "auth_asym_id": "F",
-                              "beg_auth_seq_id": 860,
-                              "end_auth_seq_id": 863
-                            }
-                          ]
-                        },
-                        "children": [
-                          {
-                            "kind": "representation",
-                            "params": {
-                              "type": "ball_and_stick"
-                            },
-                            "children": [
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "#FFFFFF"
-                                }
-                              }
-                            ]
                           }
                         ]
                       }
@@ -3995,7 +2678,7 @@
       "metadata": {
         "title": "pLDDT view",
         "description": "Colored by predicted confidence (B-factor), matching `spectrum b, tv_orange_yellow_marine_blue, minimum=20, maximum=100`.",
-        "key": "d8bdc176-1e67-4499-a7d1-3f542096795e",
+        "key": "9a1a00dd-45f5-45a3-96d1-69273f0092db",
         "linger_duration_ms": 1000
       }
     }
