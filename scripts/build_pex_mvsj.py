@@ -193,6 +193,8 @@ def build_scene(mode):
                 "colors": ["#E68C3A", "#FFFF00", "#5C88DA", "#1E3A8A"],  # orange -> yellow -> marine -> blue
                 "mode": "normalized",
                 "value_domain": [20, 100],
+                "underflow_color": "auto",  # clip values < 20 to the lowest checkpoint color (matches PyMOL `spectrum` clipping)
+                "overflow_color": "auto",   # clip values > 100 to the highest checkpoint color
             },
         )
     else:

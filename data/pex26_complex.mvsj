@@ -2,7 +2,7 @@
   "kind": "multiple",
   "metadata": {
     "description": "PEX1-PEX6-PEX26-PEX5 complex — scene navigation",
-    "timestamp": "2026-07-15T20:25:40.852167+00:00",
+    "timestamp": "2026-07-15T20:40:04.216119+00:00",
     "version": "1.8"
   },
   "snapshots": [
@@ -1265,7 +1265,7 @@
       "metadata": {
         "title": "Cartoon view",
         "description": "Domain-colored cartoon (PEX1/PEX6 domains, Walker motifs, ISS, PEX26, PEX5).",
-        "key": "b5ef3fb3-ba65-4253-ac63-dbacbf6e6e40",
+        "key": "68c8626f-8a7a-4218-a48a-3f41a40e7d13",
         "linger_duration_ms": 1000
       }
     },
@@ -2552,7 +2552,7 @@
       "metadata": {
         "title": "Surface view",
         "description": "Same as cartoon view, with PEX5 shown as a semi-transparent surface.",
-        "key": "d30ca438-cc75-4ee1-93de-94131baa19c1",
+        "key": "2158ceb0-817d-4de0-827b-4349d400c09b",
         "linger_duration_ms": 1000
       }
     },
@@ -2608,7 +2608,9 @@
                                     "value_domain": [
                                       20,
                                       100
-                                    ]
+                                    ],
+                                    "underflow_color": "auto",
+                                    "overflow_color": "auto"
                                   }
                                 }
                               }
@@ -2638,7 +2640,7 @@
       "metadata": {
         "title": "pLDDT view",
         "description": "Colored by predicted confidence (B-factor), matching `spectrum b, tv_orange_yellow_marine_blue, minimum=20, maximum=100`.",
-        "key": "0927c28e-7fb4-4fff-9fd0-4fd58782e8ce",
+        "key": "fd92dd1a-b703-4da9-9345-0191d29c2c53",
         "linger_duration_ms": 1000
       }
     }
