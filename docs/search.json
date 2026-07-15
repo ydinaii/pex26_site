@@ -32,14 +32,7 @@
     "href": "collaborators.html",
     "title": "Collaborators",
     "section": "",
-    "text": "We are grateful to collaborate with leading research groups specializing in peroxisome biology and genetic hearing loss."
-  },
-  {
-    "objectID": "collaborators.html#dr.-einat-zalckvar",
-    "href": "collaborators.html#dr.-einat-zalckvar",
-    "title": "Collaborators",
-    "section": "Dr. Einat Zalckvar",
-    "text": "Dr. Einat Zalckvar\n\n  \n  \n    Dr. Einat Zalckvar\n    Zalckvar Lab"
+    "text": "We are grateful to collaborate with leading research groups specializing in peroxisome biology and genetic hearing loss.\n\n\n  \n    \n    \n      Dr. Einat Zalckvar\n      Zalckvar Lab\n    \n    \n  \n\n  \n    \n    \n      Dr. Joshua Manor\n      Sheba Medical Center Profile"
   },
   {
     "objectID": "structure.html",
@@ -60,7 +53,7 @@
     "href": "structure.html#interactive-3d-viewer-of-the-domain-colored-pex1pex6pex26-complex",
     "title": "PEX1/PEX6/PEX26 Complex Structure",
     "section": "Interactive 3D Viewer of the Domain-Colored PEX1/PEX6/PEX26 Complex",
-    "text": "Interactive 3D Viewer of the Domain-Colored PEX1/PEX6/PEX26 Complex\nThe viewer below shows the domain-colored PEX1/PEX6/PEX26 complex (AlphaFold 3 model), with three navigable scenes: a domain/motif-colored cartoon (PEX1 and PEX6 nucleotide-binding domains, Walker A/B motifs, ISS, PEX26), and a per-residue confidence (pLDDT) view.\nUse the scene selector at the top of the viewer to switch between them, and your mouse to rotate, zoom, and explore the structure.\nFor full controls, open in Mol* viewer."
+    "text": "Interactive 3D Viewer of the Domain-Colored PEX1/PEX6/PEX26 Complex\nThe viewer below shows the domain-colored PEX1/PEX6/PEX26 complex (AlphaFold 3 model), with several navigable scenes: domain/motif-colored cartoons (PEX1 and PEX6 nucleotide-binding domains, Walker A/B motifs, ISS, PEX26), and per-residue confidence (pLDDT) views.\nUse the scene selector at the top of the viewer to switch between them, and your mouse to rotate, zoom, and explore the structure.\nFor full controls, open in Mol* viewer."
   },
   {
     "objectID": "index.html",

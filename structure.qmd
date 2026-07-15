@@ -21,10 +21,10 @@ For full controls, [open in Mol\* viewer](https://molstar.org/viewer/?snapshot-u
 ## Interactive 3D Viewer of the Domain-Colored PEX1/PEX6/PEX26 Complex
 
 The viewer below shows the domain-colored PEX1/PEX6/PEX26 complex ([AlphaFold
-3](https://github.com/google-deepmind/alphafold3/tree/main) model), with three
-navigable scenes: a domain/motif-colored cartoon (PEX1 and PEX6
-nucleotide-binding domains, Walker A/B motifs, ISS, PEX26), and a per-residue
-confidence (pLDDT) view.
+3](https://github.com/google-deepmind/alphafold3/tree/main) model), with several
+navigable scenes: domain/motif-colored cartoons (PEX1 and PEX6
+nucleotide-binding domains, Walker A/B motifs, ISS, PEX26), and per-residue
+confidence (pLDDT) views.
 
 Use the scene selector at the top of the viewer to
 switch between them, and your mouse to rotate, zoom, and explore the structure.
