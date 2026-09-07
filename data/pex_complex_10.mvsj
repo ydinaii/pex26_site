@@ -1,0 +1,527 @@
+{
+  "kind": "multiple",
+  "metadata": {
+    "description": "PEX1/PEX6/PEX26 complex — overview and F51 inset",
+    "timestamp": "2026-09-07T16:19:44.011828+00:00",
+    "version": "1.8"
+  },
+  "snapshots": [
+    {
+      "root": {
+        "kind": "root",
+        "children": [
+          {
+            "kind": "download",
+            "params": {
+              "url": "https://ydinaii.github.io/pex26_site/data/hs_7549_db_2026_force_0_permuted_minimized_run_1.cif"
+            },
+            "children": [
+              {
+                "kind": "parse",
+                "params": {
+                  "format": "mmcif"
+                },
+                "children": [
+                  {
+                    "kind": "structure",
+                    "params": {
+                      "type": "model"
+                    },
+                    "children": [
+                      {
+                        "kind": "component",
+                        "params": {
+                          "selector": [
+                            {
+                              "auth_asym_id": "A"
+                            },
+                            {
+                              "auth_asym_id": "B"
+                            },
+                            {
+                              "auth_asym_id": "C"
+                            }
+                          ]
+                        },
+                        "children": [
+                          {
+                            "kind": "representation",
+                            "params": {
+                              "type": "cartoon"
+                            },
+                            "children": [
+                              {
+                                "kind": "color",
+                                "params": {
+                                  "color": "#0072B2"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "component",
+                        "params": {
+                          "selector": [
+                            {
+                              "auth_asym_id": "D"
+                            },
+                            {
+                              "auth_asym_id": "E"
+                            },
+                            {
+                              "auth_asym_id": "F"
+                            }
+                          ]
+                        },
+                        "children": [
+                          {
+                            "kind": "representation",
+                            "params": {
+                              "type": "cartoon"
+                            },
+                            "children": [
+                              {
+                                "kind": "color",
+                                "params": {
+                                  "color": "#E69F00"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "component",
+                        "params": {
+                          "selector": [
+                            {
+                              "auth_asym_id": "G"
+                            },
+                            {
+                              "auth_asym_id": "H"
+                            },
+                            {
+                              "auth_asym_id": "I"
+                            }
+                          ]
+                        },
+                        "children": [
+                          {
+                            "kind": "representation",
+                            "params": {
+                              "type": "cartoon"
+                            },
+                            "children": [
+                              {
+                                "kind": "color",
+                                "params": {
+                                  "color": "#009E73"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "component",
+                        "params": {
+                          "selector": [
+                            {
+                              "label_comp_id": "ATP"
+                            },
+                            {
+                              "label_comp_id": "ADP"
+                            },
+                            {
+                              "label_comp_id": "PO4"
+                            },
+                            {
+                              "label_comp_id": "NA"
+                            },
+                            {
+                              "label_comp_id": "K"
+                            },
+                            {
+                              "label_comp_id": "MG"
+                            },
+                            {
+                              "label_comp_id": "CA"
+                            },
+                            {
+                              "label_comp_id": "CL"
+                            }
+                          ]
+                        },
+                        "children": [
+                          {
+                            "kind": "representation",
+                            "params": {
+                              "type": "ball_and_stick"
+                            },
+                            "children": [
+                              {
+                                "kind": "color",
+                                "params": {},
+                                "custom": {
+                                  "molstar_color_theme_name": "element-symbol"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "component",
+                        "params": {
+                          "selector": {
+                            "auth_asym_id": "G",
+                            "auth_seq_id": 51
+                          }
+                        },
+                        "children": [
+                          {
+                            "kind": "representation",
+                            "params": {
+                              "type": "ball_and_stick"
+                            },
+                            "children": [
+                              {
+                                "kind": "color",
+                                "params": {
+                                  "color": "red"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "label",
+                            "params": {
+                              "text": "F51"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "component",
+                        "params": {
+                          "selector": "all"
+                        },
+                        "children": [
+                          {
+                            "kind": "focus",
+                            "params": {}
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "title": "Overview",
+        "description": "PEX1 (blue) / PEX6 (gold) / PEX26 (green) hexameric complex, F51 labeled.",
+        "key": "cartoon_view",
+        "linger_duration_ms": 1000
+      }
+    },
+    {
+      "root": {
+        "kind": "root",
+        "children": [
+          {
+            "kind": "download",
+            "params": {
+              "url": "https://ydinaii.github.io/pex26_site/data/hs_7549_db_2026_force_0_permuted_minimized_run_1.cif"
+            },
+            "children": [
+              {
+                "kind": "parse",
+                "params": {
+                  "format": "mmcif"
+                },
+                "children": [
+                  {
+                    "kind": "structure",
+                    "params": {
+                      "type": "model"
+                    },
+                    "children": [
+                      {
+                        "kind": "component",
+                        "params": {
+                          "selector": [
+                            {
+                              "auth_asym_id": "A"
+                            },
+                            {
+                              "auth_asym_id": "B"
+                            },
+                            {
+                              "auth_asym_id": "C"
+                            }
+                          ]
+                        },
+                        "children": [
+                          {
+                            "kind": "representation",
+                            "params": {
+                              "type": "cartoon"
+                            },
+                            "children": [
+                              {
+                                "kind": "color",
+                                "params": {
+                                  "color": "#0072B2"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "component",
+                        "params": {
+                          "selector": [
+                            {
+                              "auth_asym_id": "D"
+                            },
+                            {
+                              "auth_asym_id": "E"
+                            },
+                            {
+                              "auth_asym_id": "F"
+                            }
+                          ]
+                        },
+                        "children": [
+                          {
+                            "kind": "representation",
+                            "params": {
+                              "type": "cartoon"
+                            },
+                            "children": [
+                              {
+                                "kind": "color",
+                                "params": {
+                                  "color": "#E69F00"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "component",
+                        "params": {
+                          "selector": [
+                            {
+                              "auth_asym_id": "G"
+                            },
+                            {
+                              "auth_asym_id": "H"
+                            },
+                            {
+                              "auth_asym_id": "I"
+                            }
+                          ]
+                        },
+                        "children": [
+                          {
+                            "kind": "representation",
+                            "params": {
+                              "type": "cartoon"
+                            },
+                            "children": [
+                              {
+                                "kind": "color",
+                                "params": {
+                                  "color": "#009E73"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "component",
+                        "params": {
+                          "selector": [
+                            {
+                              "auth_asym_id": "G",
+                              "auth_seq_id": 51
+                            },
+                            {
+                              "auth_asym_id": "G",
+                              "auth_seq_id": 49
+                            },
+                            {
+                              "auth_asym_id": "G",
+                              "auth_seq_id": 95
+                            },
+                            {
+                              "auth_asym_id": "D",
+                              "auth_seq_id": 218
+                            },
+                            {
+                              "auth_asym_id": "A",
+                              "auth_seq_id": 229
+                            }
+                          ]
+                        },
+                        "children": [
+                          {
+                            "kind": "representation",
+                            "params": {
+                              "type": "ball_and_stick"
+                            },
+                            "children": [
+                              {
+                                "kind": "color",
+                                "params": {},
+                                "custom": {
+                                  "molstar_color_theme_name": "element-symbol"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "focus",
+                            "params": {
+                              "radius": 10,
+                              "radius_extent": 5
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "component",
+                        "params": {
+                          "selector": {
+                            "label_comp_id": "MG"
+                          }
+                        },
+                        "children": [
+                          {
+                            "kind": "representation",
+                            "params": {
+                              "type": "spacefill"
+                            },
+                            "children": [
+                              {
+                                "kind": "color",
+                                "params": {
+                                  "color": "#8FE388"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "component",
+                        "params": {
+                          "selector": {
+                            "auth_asym_id": "G",
+                            "auth_seq_id": 51
+                          }
+                        },
+                        "children": [
+                          {
+                            "kind": "label",
+                            "params": {
+                              "text": "F51"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "component",
+                        "params": {
+                          "selector": {
+                            "auth_asym_id": "G",
+                            "auth_seq_id": 49
+                          }
+                        },
+                        "children": [
+                          {
+                            "kind": "label",
+                            "params": {
+                              "text": "L49"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "component",
+                        "params": {
+                          "selector": {
+                            "auth_asym_id": "G",
+                            "auth_seq_id": 95
+                          }
+                        },
+                        "children": [
+                          {
+                            "kind": "label",
+                            "params": {
+                              "text": "E95"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "component",
+                        "params": {
+                          "selector": {
+                            "auth_asym_id": "D",
+                            "auth_seq_id": 218
+                          }
+                        },
+                        "children": [
+                          {
+                            "kind": "label",
+                            "params": {
+                              "text": "F218"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "component",
+                        "params": {
+                          "selector": {
+                            "auth_asym_id": "A",
+                            "auth_seq_id": 229
+                          }
+                        },
+                        "children": [
+                          {
+                            "kind": "label",
+                            "params": {
+                              "text": "N229"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "title": "F51 site",
+        "description": "Zoomed view of PEX26 F51 and neighboring residues (G49, G95, D218, A229).",
+        "key": "inset_view",
+        "linger_duration_ms": 1000
+      }
+    }
+  ]
+}
