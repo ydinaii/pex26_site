@@ -2,7 +2,7 @@
   "kind": "multiple",
   "metadata": {
     "description": "PEX1/PEX6/PEX26 complex — overview and F51 inset",
-    "timestamp": "2026-09-07T09:49:17.610196+00:00",
+    "timestamp": "2026-09-07T12:00:13.459900+00:00",
     "version": "1.8"
   },
   "snapshots": [
@@ -134,15 +134,7 @@
                             "kind": "representation",
                             "params": {
                               "type": "ball_and_stick"
-                            },
-                            "children": [
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "element-symbol"
-                                }
-                              }
-                            ]
+                            }
                           }
                         ]
                       },
@@ -156,15 +148,7 @@
                             "kind": "representation",
                             "params": {
                               "type": "spacefill"
-                            },
-                            "children": [
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "element-symbol"
-                                }
-                              }
-                            ]
+                            }
                           }
                         ]
                       },
@@ -375,15 +359,7 @@
                             "kind": "representation",
                             "params": {
                               "type": "ball_and_stick"
-                            },
-                            "children": [
-                              {
-                                "kind": "color",
-                                "params": {
-                                  "color": "element-symbol"
-                                }
-                              }
-                            ]
+                            }
                           },
                           {
                             "kind": "focus",
