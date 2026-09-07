@@ -2,7 +2,7 @@
   "kind": "multiple",
   "metadata": {
     "description": "PEX1/PEX6/PEX26 complex — overview and F51 inset",
-    "timestamp": "2026-09-07T09:17:36.947057+00:00",
+    "timestamp": "2026-09-07T09:49:17.610196+00:00",
     "version": "1.8"
   },
   "snapshots": [
@@ -13,7 +13,7 @@
           {
             "kind": "download",
             "params": {
-              "url": "data/hs_7549_db_2026_force_0_permuted_minimized_run_1.cif"
+              "url": "https://ydinaii.github.io/pex26_site/data/hs_7549_db_2026_force_0_permuted_minimized_run_1.cif"
             },
             "children": [
               {
@@ -233,7 +233,7 @@
           {
             "kind": "download",
             "params": {
-              "url": "data/hs_7549_db_2026_force_0_permuted_minimized_run_1.cif"
+              "url": "https://ydinaii.github.io/pex26_site/data/hs_7549_db_2026_force_0_permuted_minimized_run_1.cif"
             },
             "children": [
               {
