@@ -9,7 +9,7 @@ with [GROMACS](https://www.gromacs.org).
 
 **To play the simulation:**
 
-1. Click the animation control button <img src="play_button.png" style="height:1.2em; vertical-align:middle;"> in the top-left corner of the viewer to open the animation control panel
+1. Click the animation control button <img src="images/play_button.png" style="height:1.2em; vertical-align:middle;"> in the top-left corner of the viewer to open the animation control panel
 2. Click **Start** to begin the animation
 3. To adjust the speed, change the **Duration In S** value in the animation control panel
 
