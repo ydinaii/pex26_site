@@ -56,18 +56,25 @@
     "text": "Interactive 3D Viewer of the Domain-Colored PEX1/PEX6/PEX26 Complex\nThe viewer below shows the domain-colored PEX1/PEX6/PEX26 complex (AlphaFold 3 model), with several navigable scenes: domain/motif-colored cartoons (PEX1 and PEX6 nucleotide-binding domains, Walker A/B motifs, ISS, PEX26), and per-residue confidence (pLDDT) views.\nUse the scene selector at the top of the viewer to switch between them, and your mouse to rotate, zoom, and explore the structure.\nFor full controls, open in Mol* viewer."
   },
   {
+    "objectID": "structure.html#interactive-3d-viewer-coloring-by-protein-type",
+    "href": "structure.html#interactive-3d-viewer-coloring-by-protein-type",
+    "title": "PEX1/PEX6/PEX26 Complex Structure",
+    "section": "Interactive 3D Viewer: Coloring by Protein Type",
+    "text": "Interactive 3D Viewer: Coloring by Protein Type\nThe viewer below shows the PEX1/PEX6/PEX26 complex colored by protein type: PEX1 in blue, PEX6 in gold, and PEX26 in green. The model was generated with AlphaFold 3 and refined with Phenix. Use the scene selector at the top of the viewer to switch between [1/2] Overview and [2/2] F51 site to automatically focus on the F51 residue in PEX26.\nUse your mouse to rotate, zoom, and explore the structure.\nFor full controls, open in Mol* viewer."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "PEX26-F51L Research | Regina Ring & Yehuda Dinaii",
     "section": "",
-    "text": "Computational and structural analysis of a peroxisomal disease variant\n\nSeptember 7, 2026"
+    "text": "Computational and structural analysis of a peroxisomal disease variant\n\nSeptember 8, 2026"
   },
   {
     "objectID": "index.html#overview",
     "href": "index.html#overview",
     "title": "PEX26-F51L Research | Regina Ring & Yehuda Dinaii",
     "section": "Overview",
-    "text": "Overview\nPeroxisome biogenesis factor 26 (PEX26) is a tail-anchored peroxisomal membrane protein that recruits and anchors the hexameric AAA-ATPase complex PEX1–PEX6 to the cytosolic face of the peroxisome. The complex uses ATP hydrolysis to retrotranslocate the import receptor PEX5 back to the cytosol, enabling repeated rounds of peroxisomal matrix protein import. In yeast, Pex15 is the functional homologue of human PEX26.\nThe homozygous missense variant F51L in PEX26 is associated with peroxisome biogenesis disorders on the Zellweger spectrum, and has been linked to sensorineural hearing loss. It was first described in 2019 in four siblings from an Ashkenazi Jewish family [Tanaka et al. (2019)]. To our knowledge, only six individuals worldwide are known to carry this mutation: the four siblings reported in that study, and our two daughters.\n\n\n\n💬 PeroxiBot (NotebookLM)\nChat with an AI trained on the PEX26-F51L literature.\nOpen PeroxiBot\n\nLast updated: September 7, 2026"
+    "text": "Overview\nPeroxisome biogenesis factor 26 (PEX26) is a tail-anchored peroxisomal membrane protein that recruits and anchors the hexameric AAA-ATPase complex PEX1–PEX6 to the cytosolic face of the peroxisome. The complex uses ATP hydrolysis to retrotranslocate the import receptor PEX5 back to the cytosol, enabling repeated rounds of peroxisomal matrix protein import. In yeast, Pex15 is the functional homologue of human PEX26.\nThe homozygous missense variant F51L in PEX26 is associated with peroxisome biogenesis disorders on the Zellweger spectrum, and has been linked to sensorineural hearing loss. It was first described in 2019 in four siblings from an Ashkenazi Jewish family [Tanaka et al. (2019)]. To our knowledge, only six individuals worldwide are known to carry this mutation: the four siblings reported in that study, and our two daughters.\n\n\n\n💬 PeroxiBot (NotebookLM)\nChat with an AI trained on the PEX26-F51L literature.\nOpen PeroxiBot\n\nLast updated: September 8, 2026"
   },
   {
     "objectID": "index.html#key-questions",
